@@ -12,3 +12,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#200050'
+  links: '#fc306b'
+  primary-light: '#e2e2e2'

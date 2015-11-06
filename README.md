@@ -1,19 +1,13 @@
-# SOTM 2016 Website
+Grayscale Jekyll theme
+=========================
 
-http://osmbe.github.io/sotm2016/
+Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
 
-## Publish on http://osmbe.github.io/sotm2016/
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
 
-Just put code on the `gh-pages` branch (for dev we can use the `master` branch)
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
 
-## Local installation
-
-### Install Jekyll
-
-See http://jekyllrb.com/docs/installation/
-
-### Lauch local server
-
-* `git clone git@github.com:osmbe/sotm2016.git`
-* `cd sotm2016`
-* `jekyll serve`
+=========
+For more details, read the [documentation](http://jekyllrb.com/)

@@ -1,0 +1,150 @@
+---
+layout: default
+color: green
+---
+
+{% include header.html %}
+
+<div id='venuemap' class='row11 col12'>
+  <div class='pin-topright pad1 z100 layer-control'>
+    <a href='#' class='js-citi fill-citi button col12 space-bottom1 dark icon bicycle'>Citi bike stations</a>
+    <div id='info' class='info round fill-dark3 hide-mobile'></div>
+  </div>
+  <div class='attribution fill-white'>© OpenStreetMap contributors &nbsp;<a href='#' class='js-edit'>Edit this map</a></div>
+</div>
+
+<div class='limiter'>
+  <div class='pad4y col12 clearfix'>
+    <div class='col4'>
+      <h2 class='color-green2 spartan'>Venue + accommodations</h2>
+    </div>
+
+    <div class='col7 margin1 pad1y'>
+      <div class='space-bottom4'>
+        <h3 class='spartan space-bottom1'>Conference &ndash; June 6 and 7</h3>
+        <h4 class='sans'><a href='{{site.baseurl}}/orientation-guide'>United Nations Headquarters</a></h4>
+        <div class='prose'>
+          <p>46th Street and 1st Avenue</p>
+          <p>The main conference with talks and panels takes place at the United Nations Headquarters in midtown Manhattan.</p>
+          <p><a href='{{site.baseurl}}/orientation-guide'>Arrive early at the United Nations to pass security (think of this like an airport) and familiarize yourself with what items you are allowed to bring.</a></p>
+        </div>
+      </div>
+      
+      <div class='space-bottom4'>
+        <h3 class='spartan space-bottom1'>Hackday &ndash; June 8</h3>
+        <h4 class='sans'><a href='http://www.openstreetmap.org/?mlat=40.72993&mlon=-73.99822#map=19/40.72993/-73.99822'>NYU's Global Center for Academic &amp; Spiritual Life</a></h4>
+        <div class='prose'>
+          <p>238 Thompson St 3rd Floor</p>
+          <p>The hack day with software workshops, mapping workshops and a code sprint takes place on the NYU campus.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
+
+<script src='locations.js'></script>
+<script src='citibikes.js'></script>
+<script>
+
+var info = document.getElementById('info'), count = 0;
+// Limit map panning to New York
+var southWest = L.latLng(40.6477, -74.2133),
+    northEast = L.latLng(40.8615, -73.8540),
+    bounds = L.latLngBounds(southWest, northEast);
+
+// Initialize map
+var map = L.mapbox.map('venuemap',  null, {
+  maxBounds: bounds,
+  attributionControl: false,
+  minZoom: 13
+});
+
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+map.setView([40.7499, -73.9637], 13);
+map.scrollWheelZoom.disable();
+
+// Initialize marker data here.
+var citi = L.mapbox.featureLayer().addTo(map);
+var markers = [];
+var features = L.mapbox.featureLayer()
+  .addTo(map)
+  .setGeoJSON(locations);
+
+features.eachLayer(function(l) {
+  markers.push(l);
+  var props = l.feature.properties;
+  var m = L.divIcon({
+    className: 'marker fill-' + props.color + ' ' + props.type,
+    iconSize: props.markerSize ? props.markerSize : [30,30],
+    popupAnchor: [0, -10],
+  });
+
+  l.setIcon(m);
+});
+
+// Center on features clicked
+features.on('click', function(e) {
+  map.panTo(e.layer.getLatLng());
+});
+
+markers.forEach(function(m, i) {
+  var props = m.feature.properties;
+  var link = info.appendChild(document.createElement('a'));
+  link.className = 'block dark keyline-bottom pad1';
+  link.href = '#';
+  link.innerHTML = '<span class="dot inline marker-dot fill-' + props.color + ' ' + props.type + '"></span>' + props.title;
+  link.setAttribute('data-index', i);
+  if (i === 0) {
+    markers[i].openPopup();
+    link.className += ' active';
+  }
+});
+
+$('.info a').on('click', function() {
+  if ($(this).is('.active')) {
+    $(this).removeClass('active');
+  } else {
+    $('.info a').removeClass('active');
+    $(this).addClass('active');
+  }
+  var index = $(this).attr('data-index');
+  markers[index].openPopup();
+  map.panTo(markers[index].getLatLng());
+
+  return false;
+});
+
+$('.js-citi').on('click', function() {
+  if ($(this).is('.active')) {
+    $(this).removeClass('active');
+    map.removeLayer(citi);
+  } else {
+    $(this).addClass('active');
+    map.addLayer(citi);
+    citi.setGeoJSON(citibikes).eachLayer(function(l) {
+      var props = l.feature.properties;
+      var m = L.divIcon({
+        className: 'marker fill-citi citi',
+        iconSize: [12, 12],
+        popupAnchor: [0, -20],
+      });
+
+      l.setIcon(m);
+      var content = '<strong>Citi bike station</strong><br /><p class="quiet">' + props.name + '</p>';
+      l.bindPopup(content);
+    });
+  }
+
+  return false;
+});
+
+$('.js-edit').on('click', function() {
+  var center = map.getCenter();
+  window.location.href = 'http://www.openstreetmap.org/edit#map=' + map.getZoom() + '/' + center.lat + '/' + center.lng;
+});
+
+</script>
