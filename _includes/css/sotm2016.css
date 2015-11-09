@@ -390,19 +390,25 @@ body {
 h3.small-title {
     color: #7e91ff;
     position: relative;
-    margin-bottom: 17px;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 h3.small-title:before {
     content: '';
     display: block;
     width: 30px;
-    height: 2px;
+    height: 3px;
     border-radius: 5px;
     background-color: #7e91ff;
     position: absolute;
-    bottom: -9px;
+    bottom: -13px;
     left: 0px;
+}
+
+p.varela {
+    font-family: 'Varela Round',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
 }
 
 .keyline-bottom-thick:before {
