@@ -411,6 +411,9 @@ p.varela {
     font-size: 17px;
 }
 
+.keyline-bottom-thick {
+    padding-bottom: 10px;
+}
 .keyline-bottom-thick:before {
     content: '';
     content: '';
