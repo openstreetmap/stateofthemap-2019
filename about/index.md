@@ -11,9 +11,12 @@ titlecontent: |
     </div>
 ---
 
-State of the Map is the annual conference for all [OpenStreetMap](http://openstreetmap.org/) users. No matter whether you're entirely new to OpenStreetMap or whether you're an experienced hand, this conference is for you. This year's State of the Map takes place as the OpenStreetMap project enters into its second decade. OpenStreetMap is entirely open data and it is becoming critical infrastructure for an increasing number of non profits, governments and businesses. The project has grown to almost two million registered users, over 300,000 active mappers, almost 30,000 of them logging into the map every month to create one of the best map representations of the world available.
+We are delighted to announce that State of the Map 2016 will be held in Brussels, Belgium. The conference will be in the third quarter (Jul-Aug-Sep) of 2016.
 
-This year we're throwing one huge event for the world wide OpenStreetMap community hosted at the United Nations Headquarters in New York City. We're inviting everyone to join - seasoned mappers, newcomers, non profits, businesses, governments, schools, universities - everyone with an interest in OpenStreetMap. Come out and join us for [two days of talks and one hack day](http://stateofthemap.us/program/) to celebrate OpenStreetMap, share your experience, discuss the future of the project and learn from each other.
+Thank you to all teams who submitted a proposal. The quality of the bids was fantastic and it was pleasure reviewing them.
+
+We are currently working with the Brussels team to formalise the plans and will keep this website updated as we can share more. See you in 2016 in Brussels!
+
 
 *– Your State of the Map organization team*
 

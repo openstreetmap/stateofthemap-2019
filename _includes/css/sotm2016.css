@@ -20,6 +20,10 @@ h6 {
     letter-spacing: 1px;
 }
 
+h1.purple-text {
+    color: #7e91ff;
+}
+
 .dark h2 span {
     color: #B3BAE2;
 }
