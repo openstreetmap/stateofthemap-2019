@@ -53,7 +53,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     font-family: 'Varela Round',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color: #040528;
     font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: white;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -497,5 +497,29 @@ input#mce-EMAIL::selection {
     display: none !important;
 }
 
+.navbar-brand {
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-toggle {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 4px;
+}
 
 
+@media only screen and (max-width:640px) {
+    .intro-body .col4 {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0px;
+    }
+    .icon.mail:before {
+      content: "\e653";
+      position: absolute !important;
+      left: 0px;
+    }
+}
