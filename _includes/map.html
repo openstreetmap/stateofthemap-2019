@@ -14,6 +14,12 @@ var map = new mapboxgl.Map({
     center: [4.3964,50.8227], // starting position
     zoom: 15 // starting zoom
 });
+map.on('style.load', function() {
+    console.log('loaded')
+    $('.mapboxgl-ctrl-attrib.mapboxgl-ctrl').remove();
+    $('.mapboxgl-ctrl-bottom-right').append('<div class="mapboxgl-ctrl-attrib mapboxgl-ctrl"><a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap contributors</a></div>');
+});
+
 
 
 // Add zoom and rotation controls to the map.
