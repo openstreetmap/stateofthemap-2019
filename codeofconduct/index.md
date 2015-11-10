@@ -8,7 +8,7 @@ The OpenStreetMap Foundation is dedicated to providing a harassment-free confere
 
 Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers. Our anti-harassment policy can be found at:
 
-[Anti-harassment policy ](stateofthemap.org/code-of-conduct-anti-harassment-policy)
+[Anti-harassment policy ](http://stateofthemap.org/code-of-conduct-anti-harassment-policy)
 
 ## Contact Information
 
