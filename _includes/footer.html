@@ -1,22 +1,26 @@
-<footer class="site-footer">
+    <!-- Footer -->
+    <footer class="fill-midnight dark contain" id="footer">
+		<div class="limiter">
+		      <div class="pad4y clearfix">
+		        <div class="space-bottom1 col12  clearfix footer-links">
+		          <div class="col3 pad4x">
+		            {% include svg/logo-footer.svg %}
+		          </div>
+		          <nav class="col3 pad2">
+		            <a href="{{site.baseurl}}/about" class="animate quiet block">About</a>
+		            <a href="{{site.baseurl}}/venue" class="animate quiet block"> Venue</a>
+		            <p href="" class="animate quiet disable">Program</p>
+		          </nav>
+		          <nav class="col3 pad2">
+		            <p href="" class="animate quiet ">Scholarships</p>
+		            <p href="" class="animate quiet ">Social events</p>
+		            <p href="" class="animate quiet ">Orientation guide</p>
+		          </nav>
+		          <nav class="col3 pad2">
+		            <a href="{{site.baseurl}}/codeofconduct/" class="animate quiet ">Code of conduct</a>
+		          </nav>
+		        </div>
+		      </div>
+		    </div>
+    </footer>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>

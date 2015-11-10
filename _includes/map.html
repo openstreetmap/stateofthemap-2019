@@ -1,0 +1,22 @@
+    <!-- Map Section -->
+ <section class="map-container">
+ <div id="mapbox-map"></div>
+
+ </section>
+
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoidGF0aWFuYSIsImEiOiJrWW1MQlNzIn0.nvwe9ZuqxDWX25LR3t3CFw';
+var map = new mapboxgl.Map({
+    container: 'mapbox-map', // container id
+    style: 'mapbox://styles/tatiana/cifeh4y0l5lp4r7lx6qejwkp3', //stylesheet location
+    center: [4.3964,50.8227], // starting position
+    zoom: 15 // starting zoom
+});
+
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.Navigation());
+map.scrollZoom.disable();
+</script>
