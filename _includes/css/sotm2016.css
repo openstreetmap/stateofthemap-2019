@@ -497,6 +497,10 @@ input#mce-EMAIL::selection {
     display: none !important;
 }
 
+
+/* Navigation
+------------------------------------------------------- */
+
 .navbar-brand {
     padding-top: 15px;
     padding-left: 0px;
@@ -509,6 +513,26 @@ input#mce-EMAIL::selection {
     margin-top: 4px;
 }
 
+
+/* Sponsors
+------------------------------------------------------- */
+
+#sponsors a img {
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+#sponsors a:hover img {
+    opacity: .7;
+}
+
+
+
+/* Mobile
+------------------------------------------------------- */
 
 @media only screen and (max-width:640px) {
     .intro-body .col4 {
