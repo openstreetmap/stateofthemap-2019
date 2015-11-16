@@ -2,7 +2,7 @@
 title: State of the Map 2016
 email: info@stateofthemap.org
 description: "Join for three days of talks, discussions and workshops around the free and open map of the world."
-baseurl: "/sotm2016/" # the subpath of your site, e.g. /blog/
+baseurl: "/stateofthemap-2016/" # the subpath of your site, e.g. /blog/
 url: "https://2016.stateofthemap.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
