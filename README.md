@@ -1,10 +1,8 @@
 # SOTM 2016 Website
 
-http://osmbe.github.io/sotm2016/
+The `gh-pages` branch is published under:
 
-## Publish on http://osmbe.github.io/sotm2016/
-
-Just put code on the `gh-pages` branch (for dev we can use the `master` branch)
+http://openstreetmap.github.io/stateofthemap-2016/
 
 ## Local installation
 
