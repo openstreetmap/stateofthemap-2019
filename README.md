@@ -15,4 +15,4 @@ See http://jekyllrb.com/docs/installation/
 * `git clone git@github.com:openstreetmap/stateofthemap-2016.git`
 * `cd stateofthemap-2016`
 * `jekyll serve -w`
-* Point your browser to `http://localhost:4000/stateofthemap-2016/
+* Point your browser to `http://localhost:4000/stateofthemap-2016/`
