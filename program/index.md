@@ -11,6 +11,6 @@ In the meantime, here is the outline of the program:
 - September 22nd 7PM: opening social for early arrivers in Brussels
 - September 23rd: first main conference day with presentations and discussions
 - September 24th: second main conference day with presentations and discussions
-- September 25th: hack day with code, documentation sprints, mapping activities and more
+- September 25th: hack day with code, documentation sprints, mapping activities and workshops
 
 *Your State of the Map organizing team.*
