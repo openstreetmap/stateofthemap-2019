@@ -18,6 +18,6 @@ We expect participants to follow these rules at all conference venues and confer
 
 ## Contact Information
 
-You can email the OpenStreetMap US board with any concerns at [board@stateofthemap.org](mailto:board@stateofthemap.org).
+You can email the State of the Map organizing team with any concerns at [team@stateofthemap.org](mailto:team@stateofthemap.org).
 
-If you need immediate assistance, email the board. In case of emergency, call 911.
+If you need immediate assistance, email the team. For police assistance call 101, for any other emergency cal 112.
