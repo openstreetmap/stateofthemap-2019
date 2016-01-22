@@ -492,11 +492,11 @@ input#mce-EMAIL::selection {
     position: relative;
 }
 #mapbox-map { position:absolute; top:0; bottom:0; width:100%; height: 100%;}
-
+/*
 .mapboxgl-ctrl-attrib.mapboxgl-ctrl a:first-of-type {
     display: none !important;
 }
-
+*/
 
 /* Navigation
 ------------------------------------------------------- */
