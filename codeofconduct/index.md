@@ -20,4 +20,4 @@ We expect participants to follow these rules at all conference venues and confer
 
 You can email the State of the Map organizing team with any concerns at [team@stateofthemap.org](mailto:team@stateofthemap.org).
 
-If you need immediate assistance, email the team. For police assistance call 101, for any other emergency cal 112.
+For police assistance the emergency number in Germany is 112.

@@ -1,28 +1,19 @@
     <!-- Map Section -->
  <section class="map-container">
- <div id="mapbox-map"></div>
+ <div id="map"></div>
 
  </section>
 
 
 
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoidGF0aWFuYSIsImEiOiJjaWs1bzRiZGQwMDdjcHRrc285bTdwcWU5In0.0EWPVHyjaE9jTzNvOiIO-w';
-var map = new mapboxgl.Map({
-    container: 'mapbox-map', // container id
-    style: 'mapbox://styles/tatiana/cifeh4y0l5lp4r7lx6qejwkp3', //stylesheet location
-    center: [4.3964,50.8227], // starting position
-    zoom: 15 // starting zoom
-});
-map.on('style.load', function() {
-    console.log('loaded')
-    $('.mapboxgl-ctrl-attrib.mapboxgl-ctrl').remove();
-    $('.mapboxgl-ctrl-bottom-right').append('<div class="mapboxgl-ctrl-attrib mapboxgl-ctrl"><a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap contributors</a></div>');
-});
-
-
-
-// Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.Navigation());
-map.scrollZoom.disable();
+  document.addEventListener('DOMContentLoaded', function() {
+    var map = L.map('map').setView([49.41870, 8.67346], 13);
+    L.tileLayer('https://api.openrouteservice.org/pmapsurfer/{z}/{x}/{y}.png?api_key={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.geog.uni-heidelberg.de/gis/index_en.html">GIScience Heidelberg</a> powered by <a href="http://mapsurfernet.com/">MapSurfer.NET</a>',
+      maxZoom: 18,
+      accessToken: '5b3ce3597851110001cf62481487aadf64fa49f2bc03a33d0b711412'
+    }).addTo(map);
+    map.scrollWheelZoom.disable();
+  }, false);
 </script>
