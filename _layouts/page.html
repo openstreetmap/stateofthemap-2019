@@ -1,0 +1,22 @@
+---
+layout: default
+sitetitle: true
+options: dark-nav
+---
+
+
+<div class='keyline-top pad8y fill-white'>
+  <div class='limiter'>
+    <div class='pad4y col12 clearfix prose min-height'>
+      <div class='col4'>
+        <h1 class="purple-text">{{page.title}}</h1>
+        {% if page.titlecontent %}{{page.titlecontent}}{% endif %}
+      </div>
+      <div class='col8'>
+        <div class="space-left8">
+        {{content}}
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

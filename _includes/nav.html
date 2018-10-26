@@ -1,0 +1,37 @@
+ <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top  {% if page.options contains "dark-nav" %} top-nav-collapse stay-collapsed {% endif %}" role="navigation">
+        <div class="limiter">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars dark"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="{{site.baseurl}}/">
+                 <span class="">STATE OF THE MAP 2016</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll {% if page.url contains '/program' %}active{% endif %}" href="{{site.baseurl}}/program">Program</a>
+                    </li>
+                    <li>
+                        <!--
+                        <a class="page-scroll {% if page.url contains '/venue' %}active{% endif %}" href="{{site.baseurl}}/venue">Venue</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll {% if page.url contains '/scholarships' %}active{% endif %}" href="{{site.baseurl}}/scholarships">Scholarships</a>
+                    </li> -->
+                <!--     <li>
+                        <a class="page-scroll {% if page.url contains '/contact' %}active{% endif %}" href="{{site.baseurl}}/contact">Contact</a>
+                    </li> -->
+                        <li>
+                        <a class="page-scroll {% if page.url contains '/codeofconduct' %}active{% endif %}" href="{{site.baseurl}}/codeofconduct">Code of conduct</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
