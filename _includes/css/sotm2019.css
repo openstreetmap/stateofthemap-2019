@@ -3,6 +3,7 @@ body {
     height: 100%;
     font-family: 'Barlow',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: {{ site.color.text }};
+    background-color: {{ site.color.primary-dark }};
 }
 
 html {
@@ -67,6 +68,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -86,25 +88,32 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out;
-        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out;
-        transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
 
     .top-nav-collapse, .stay-collapsed {
         padding: 0;
         background-color: {{ site.color.primary-dark }};
+        border-bottom: 0.5px solid {{ site.color.primary-light }};
     }
 
     .navbar-custom.top-nav-collapse {
         background-color: {{ site.color.primary-dark }};
+        border-bottom: 0.5px solid {{ site.color.primary-light }};
     }
 
     .navbar a {
         color: {{ site.color.primary-light }};
     }
 
+    a.navbar-brand {
+        opacity: 0;
+    }
+
     .navbar-custom.top-nav-collapse a, .stay-collapsed a {
+        opacity: 1;
         color: {{ site.color.text }};
     }
 }
@@ -116,7 +125,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-color: {{ site.color.text }};
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Altstadt_Heidelberg_nach_Neuschnee.JPG/1280px-Altstadt_Heidelberg_nach_Neuschnee.JPG);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -160,7 +169,7 @@ a:focus {
     border-radius: 35px;
     font-size: 40px;
     color: {{ site.color.primary-light }};
-    background: 0 0;
+    background-color: {{ site.color.background-light }};
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -169,8 +178,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: {{ site.color.primary-dark }};
-    background: rgba(255,255,255,.1);
+    color: {{ site.color.text }};
+    background: {{ site.color.primary-dark }};
 }
 
 .btn-circle i.animated {
@@ -243,8 +252,7 @@ a:focus {
 
 #map {
     width: 100%;
-    height: 200px;
-    margin-top: 100px;
+    height: 300px;
 }
 
 @media(min-width:767px) {
@@ -258,7 +266,6 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -386,7 +393,7 @@ h3.small-title:before {
     width: 30px;
     height: 3px;
     border-radius: 5px;
-    background-color: red;
+    background-color: {{ site.color.primary-light }};
     position: absolute;
     bottom: -13px;
     left: 0px;
@@ -478,18 +485,12 @@ input#mce-EMAIL::selection {
     font-size: 17px;
     line-height: 35px;
     font-weight: bold;
+    background-color: {{ site.color.primary-dark }};
 }
 
 .map-container {
-    height: 500px;
     position: relative;
 }
-#mapbox-map { position:absolute; top:0; bottom:0; width:100%; height: 100%;}
-/*
-.mapboxgl-ctrl-attrib.mapboxgl-ctrl a:first-of-type {
-    display: none !important;
-}
-*/
 
 /* Navigation
 ------------------------------------------------------- */
@@ -516,6 +517,7 @@ input#mce-EMAIL::selection {
     -moz-transition: all .2s;
     -o-transition: all .2s;
     transition: all .2s;
+    filter: grayscale(1);
 }
 
 #sponsors a:hover img {
