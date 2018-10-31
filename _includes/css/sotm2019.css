@@ -21,13 +21,6 @@ h6 {
     letter-spacing: 1px;
 }
 
-h1.purple-text {
-    color: #7e91ff;
-}
-
-.dark h2 span {
-    color: #B3BAE2;
-}
 .uppercase {
     text-transform: uppercase;
 }
@@ -42,12 +35,15 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
 }
 
 
 .light {
     font-weight: 400;
+}
+
+.dark {
+    color: {{ site.color.text }};
 }
 
 .navbar-custom {
@@ -444,14 +440,10 @@ span.numeral {
     background-color: {{ site.color.primary-light }};
 }
 
-input[type=email].dot-field  {
-  background: white;
-  border-color: #eee;
-  border-color: rgba(255,255,255,0.25);
-  color: #7E91FF;
-  box-shadow: none;
-  border-radius: 30px 0px 0px 30px;
-  padding-left: 40px;
+.with-icon input[type=email] {
+    padding-left: 36px;
+    font-size: 17px;
+    color: #222;
 }
 
 .dark textarea:focus, .dark input[type=password]:focus, .dark input[type=text]:focus, .dark input[type=date]:focus, .dark input[type=email]:focus, .dark input[type=number]:focus {
@@ -459,14 +451,18 @@ input[type=email].dot-field  {
     color: #7E91FF;
 }
 
-.input-pill .dot-button {
-  border-left-width: 0;
-  border-radius: 0 30px 30px 0;
-  font-size: 15px;
+#newsletter .button {
+    background-color: {{ site.color.primary-dark }};
+    color: {{ site.color.text }};
+    font-size: 17px;
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
 }
 
-#newsletter .button:hover, .button.active {
-    background-color: #0B0C3E;
+#newsletter .button:hover, #newsletter .button.active {
+    background-color: #baad11;
+    color: white;
 }
 
 input#mce-EMAIL::selection {
