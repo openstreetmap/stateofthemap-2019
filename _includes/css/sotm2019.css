@@ -137,12 +137,11 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.intro .intro-body .logo {
     font-size: 40px;
-}
-
-.intro .intro-body .intro-text {
-    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
 }
 
 @media(min-width:767px) {
@@ -151,12 +150,11 @@ a:focus {
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
+    .intro .intro-body .logo {
         font-size: 100px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 25px;
+        padding-bottom: 80px;
+        margin-left: 180px;
+        float: left;
     }
 }
 
@@ -165,7 +163,6 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 14px 13px;
-    border: 2px solid {{ site.color.primary-light }};
     border-radius: 35px;
     font-size: 40px;
     color: {{ site.color.primary-light }};
