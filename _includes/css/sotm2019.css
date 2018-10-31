@@ -25,18 +25,11 @@ h6 {
     text-transform: uppercase;
 }
 
-a {
-    color: {{ site.color.links }};
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
 a:hover,
 a:focus {
     text-decoration: none;
+    color: white;
 }
-
 
 .light {
     font-weight: 400;
@@ -46,10 +39,22 @@ a:focus {
     color: {{ site.color.text }};
 }
 
+a {
+    color: {{ site.color.links }};
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.dark a, a.dark, .dark a > code {
+    color: {{ site.color.links }};
+    font-weight: 500;
+}
+
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    background-color: #040528;
+    border-bottom: 0.5px solid {{ site.color.primary-light }};
+    background-color: {{ site.color.primary-dark }};
     font-weight: 500;
 }
 
@@ -475,10 +480,13 @@ input#mce-EMAIL::selection {
 
 
 #footer {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 35px;
-    font-weight: bold;
     background-color: {{ site.color.primary-dark }};
+}
+
+#footer a.light {
+    font-weight: normal;
 }
 
 .map-container {
