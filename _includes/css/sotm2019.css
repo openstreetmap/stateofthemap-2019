@@ -126,11 +126,13 @@ a {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Altstadt_Heidelberg_nach_Neuschnee.JPG/1280px-Altstadt_Heidelberg_nach_Neuschnee.JPG);
+    background-image: url(./img/hd-autumn.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .intro .intro-body {
@@ -153,8 +155,8 @@ a {
 
     .intro .intro-body .logo {
         font-size: 100px;
-        padding-bottom: 80px;
-        margin-left: 180px;
+        padding-bottom: 60px;
+        margin-left: 8%;
         float: left;
     }
 }
@@ -166,18 +168,18 @@ a {
     padding: 14px 13px;
     border-radius: 35px;
     font-size: 40px;
-    color: {{ site.color.primary-light }};
-    background-color: {{ site.color.background-light }};
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    color: {{ site.color.background-light }};
+    background-color: {{ site.color.primary-dark }};
+    -webkit-transition: background .3s ease-in-out, text .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, text .3s ease-in-out;
+    transition: background .3s ease-in-out, text .3s ease-in-out;
 }
 
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: {{ site.color.text }};
-    background: {{ site.color.primary-dark }};
+    color: #fff;
+    background: {{ site.color.primary-light }};
 }
 
 .btn-circle i.animated {
