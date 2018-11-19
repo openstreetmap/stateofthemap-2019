@@ -133,6 +133,7 @@ a {
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position-y: bottom;
 }
 
 .intro .intro-body {
