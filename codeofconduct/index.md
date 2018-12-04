@@ -18,6 +18,6 @@ We expect participants to follow these rules at all conference venues and confer
 
 ## Contact Information
 
-You can email the State of the Map organizing team with any concerns at [team@stateofthemap.org](mailto:team@stateofthemap.org).
+You can email the State of the Map organizing team with any concerns at [sotm@openstreetmap.org](mailto:sotm@openstreetmap.org).
 
 For police assistance the emergency number in Germany is 112.
