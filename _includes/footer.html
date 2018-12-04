@@ -4,7 +4,7 @@
       <div class="pad2y clearfix">
         <div class="space-bottom1 col12  clearfix footer-links">
           <div class="col3 pad4x hide-mobile">
-            <img src="/img/logo-footer.svg" style="height:140px; margin-bottom: -20px;">
+            <img src="{{ "/img/logo-footer.svg" | prepend: site.baseurl }}" style="height:140px; margin-bottom: -20px;">
           </div>
           <nav class="col3 pad2">
             <a href="{{site.baseurl}}/program/" class="animate block">Program</a>
@@ -13,8 +13,8 @@
             <a href="{{site.baseurl}}/codeofconduct/" class="animate">Code of conduct</a>
           </nav>
           <nav class="col3 pad2">
-            <a href="https://twitter.com/sotm" class="animate block"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
-            <a href="https://www.youtube.com/channel/UCLqJsr_5PfdvDFbgv1qp2aQ" class="animate block"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a>
+            <a href="https://twitter.com/sotm" class="animate block"><span class="icon twitter"></span> Twitter</a>
+            <a href="https://www.youtube.com/channel/UCLqJsr_5PfdvDFbgv1qp2aQ" class="animate block"><span class="icon caret-right"></span> Youtube</a>
           </nav>
           <nav class="col3 pad2">
             <a href="https://blog.openstreetmap.org/" class="animate">OSM blog</a>
@@ -24,7 +24,7 @@
       </div>
         <div class="center">
           <p>
-            Copyright &copy; <span class="numeral">20{{ site.time | date: '%y' }}</span> - <a href="mailto:sotm@openstreetmap.org" class="animate light"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;sotm@openstreetmap.org</a>
+            Copyright &copy; <span class="numeral">20{{ site.time | date: '%y' }}</span> - <a href="mailto:sotm@openstreetmap.org" class="animate light"><span class="icon mail" aria-hidden="true"></span>&nbsp;sotm@openstreetmap.org</a>
           </p>
         </div>
       </div>

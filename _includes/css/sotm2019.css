@@ -435,13 +435,8 @@ span.numeral {
     left: 0px;
 }
 
-.icon.heart.icon-pink:before {
-    content: "\e63e";
-    color: #FC306B;
-    font-size: 33px;
-    width: 33px;
-    height: 33px;
-    padding-top: 3px;
+.icon:before {
+  line-height: inherit;
 }
 
 
@@ -544,7 +539,7 @@ input#mce-EMAIL::selection {
         margin-right: 10%;
         margin-top: 0px;
     }
-    .icon.mail:before {
+    form .icon.mail:before {
       content: "\e653";
       position: absolute !important;
       left: 0px;
