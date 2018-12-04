@@ -1,31 +1,46 @@
 ---
 layout: page
 color: purple
-title: Venue &amp; accomodations
+#title: Venue &amp; accomodations
+title: Venue
 ---
 
-    <div class='col12  keyline-bottom-thick contain'>
+    <div class='col12 contain'>
       <div class='space-bottom2 clearfix'>
-        <h2 class='space-bottom1'>Conference &ndash; September 23 - 25</h2>
-        <h3 class=''>Vrije Universiteit Brussel</h3>
+        <h2 class='space-bottom1'>Conference &ndash; September <span class="numeral">23 - 25</span></h2>
+        <h3 class=''></h3>
         <div class='prose'>
-          <p>Pleinlaan 2, 1050 Brussel </p>
-          <p>The Vrije Universiteit Brussel is the offshoot of the French-speaking Université Libre de Bruxelles (ULB) that was founded in 1834 by a Brussels lawyer with Flemish origins, Pierre-Théodore Verhaegen. He wanted to establish a university that would be independent from the state and the church and where academic freedom would reign.</p>
-          <a href='http://www.vub.ac.be/en/'>VUB Website</a>
+          <p>Heidelberg University</p>
+          <p>Campus <em>Neuenheimer Feld</em>:</p>
+          <!-- Map Section -->
+         <div id="map" style="height:420px; width:100%"></div>
         </div>
       </div>
-      </div>
+    </div>
 
-  <div class='col12  keyline-bottom-thick contain space-top4'>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var map = L.map('map').setView([49.414, 8.68], 14);
+        L.tileLayer('https://api.openrouteservice.org/mapsurfer/{z}/{x}/{y}.png?api_key={accessToken}', {
+          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, Imagery © <a href="https://www.geog.uni-heidelberg.de/gis/index_en.html">GIScience Heidelberg</a>',
+          maxZoom: 18,
+          accessToken: '{{ site.orsApiKey }}'
+        }).addTo(map);
+        map.scrollWheelZoom.disable();
+        L.marker([49.41854, 8.67345], {icon: L.icon({
+          iconUrl: "{{ "/img/logo-footer.svg" | prepend: site.baseurl }}",
+          iconSize: [40, 40],
+          iconAnchor: [20, 20]
+        })}).addTo(map);
+      }, false);
+    </script>
+
+    <!-- todo: accomodation, transportation, etc. -->
+    <!--<div class='col12  keyline-bottom-thick contain space-top4'>
       <div class='space-bottom2 clearfix'>
         <h2 class='space-bottom1'>Accomodations</h2>
-        <ul>
-          <li><a href="#">A nice hotel</a></li>
-          <li><a href="#">An awesome airbnb</a></li>
-          <li><a href="#">A nice hotel</a></li>
-          <li><a href="#">An awesome airbnb</a></li>
-          <li><a href="#">A nice hotel</a></li>
-          <li><a href="#">An awesome airbnb</a></li>
-        </ul>
+        <p>
+          More news soon.
+        </p>
       </div>
-      </div>
+    </div>-->
