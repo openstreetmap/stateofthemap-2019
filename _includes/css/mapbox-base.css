@@ -139,16 +139,14 @@ small { display:block; }
 
 .strong,
 strong {
-  font-family:'Roboto', sans-serif;
-  font-weight:normal;
   }
   strong em,
-  em strong { font-family:'Roboto', sans-serif; font-style: italic; }
+  em strong { font-style: italic; }
 
 address,
 em {
-  font-family:'Roboto',sans-serif;
-  }
+  font-style: italic;
+}
 
 
 /* Links */
@@ -822,7 +820,6 @@ em pre,
 pre em,
 pre strong,
 strong pre {
-  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
   white-space: pre-wrap;
 }
 
@@ -838,7 +835,6 @@ strong pre,
 pre.strong,
 .strong pre,
 pre .strong {
-  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
   font-weight:bold;
 }
 
@@ -846,7 +842,6 @@ code em,
 em code,
 pre em,
 em pre {
-  font-family:Menlo, Bitstream Vera Sans Mono, Monaco, Consolas, monospace;
   font-style:italic;
 }
 
