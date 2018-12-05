@@ -45,9 +45,15 @@ a:focus {
 
 a {
     color: {{ site.color.links }};
+
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+}
+
+div.content a {
+  text-decoration: underline;
+  text-decoration-color: {{ site.color.primary-dark }};
 }
 
 .dark a, a.dark, .dark a > code {
