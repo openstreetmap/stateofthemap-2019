@@ -4,7 +4,7 @@ title: Program
 titlecontent:
 ---
 
-State of the Map <span class="numeral">2019</span> is taking place from September <span class="numeral">21</span><sup>rd</sup> to <span class="numeral">23</span><sup>th</sup> <span class="numeral">2019</span> in Heidelberg.
+State of the Map <span class="numeral">2019</span> is taking place from September <span class="numeral">21</span><sup>st</sup> to <span class="numeral">23</span><sup>rd</sup> <span class="numeral">2019</span> in Heidelberg.
 
 <!--
 We are looking forward to designing a program with you - the OpenStreetMap community. Expect a call for session proposals to go out soon - <a href="{{site.baseurl}}/#newsletter">sign up for event updates</a> to get a notification.
