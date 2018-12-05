@@ -51,7 +51,7 @@ a {
     transition: all .2s ease-in-out;
 }
 
-div.content a {
+.content a {
   text-decoration: underline;
   text-decoration-color: {{ site.color.primary-dark }};
 }
