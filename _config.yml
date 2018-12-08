@@ -2,7 +2,6 @@
 title: State of the Map 2019
 email: sotm@openstreetmap.org
 description: "Join us for three days of talks, discussions and workshops around the free and open map of the world."
-baseurl: "/stateofthemap-2019" # the subpath of your site, e.g. /blog/
 url: "http://2019.stateofthemap.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
