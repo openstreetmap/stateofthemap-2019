@@ -55,7 +55,8 @@ button,
 button::-moz-focus-inner {
   border: 0;
   padding: 0;
-  font:15px/20px 'Open Sans', sans-serif;
+  font-size:15px;
+  line-height:20px;
 }
 
 
@@ -66,7 +67,8 @@ input,
 textarea {
   color:#404040;
   color:rgba(0,0,0,0.75);
-  font:15px/24px 'Roboto', sans-serif;
+  font-size:15px;
+  line-height:24px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -79,7 +81,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
   font-weight:normal;
   margin:0;
   }
@@ -90,7 +91,6 @@ em h3, h3 em,
 em h4, h4 em,
 em h5, h5 em,
 em h6, h6 em {
-  font-family:'Roboto', sans-serif;
   font-style: italic;
   }
 
@@ -200,7 +200,6 @@ a.quiet.dark.active, a.quiet.dark:hover { color:rgba(255,255,255,0.5); }
   white-space:nowrap;
   text-overflow:ellipsis;
   /* Protects button metrics in .prose context */
-  font-family:'Open Sans Bold', sans-serif;
   line-height:20px;
   font-size:12px;
   -webkit-appearance:none;
@@ -465,7 +464,6 @@ a.quiet.dark.active, a.quiet.dark:hover { color:rgba(255,255,255,0.5); }
     border-bottom:1px solid rgba(0,0,0,0.25);
     background:transparent;
     color:rgba(0,0,0,.5);
-    font-family:'Open Sans Bold', sans-serif;
     font-size:12px;
     text-align:center;
     display:inline-block;
@@ -901,7 +899,8 @@ form fieldset:last-child {
   }
 
 form fieldset label {
-  font:12px/20px 'Open Sans Bold', sans-serif;
+  font-size:12px;
+  line-height:20px;
   display:block;
   margin:0 0 5px;
   }
@@ -1243,7 +1242,6 @@ table {
     border-bottom:1px solid #ddd;
     }
   table th {
-    font-family:'Open Sans Bold', sans-serif;
     }
   table thead th {
     vertical-align:bottom;
@@ -3588,7 +3586,8 @@ img.inline, .inline           { display:inline-block; }
   /* Inline rules */
   body, input, textarea, p {
     color:#000;
-    font:12px/20px 'Open Sans', sans-serif;
+    font-size:12px;
+    line-height:20px;
     }
   .prose a:after { content:' [' attr(href) '] '; }
 
