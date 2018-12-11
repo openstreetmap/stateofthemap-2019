@@ -5,7 +5,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <span class="icon menu"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="{{site.baseurl}}/">
+                <a class="navbar-brand" href="{{site.baseurl}}/">
                  State of the Map <span class="numeral">2019</span>
                 </a>
             </div>
@@ -13,22 +13,29 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll {% if page.url contains '/program' %}active{% endif %}" href="{{site.baseurl}}/program">Program</a>
+                      {% if page.role == 'index' %}
+                        <a class="page-scroll" href="#newsletter">Newsletter</a>
+                      {% else %}
+                        <a class="" href="{{site.baseurl}}/#newsletter">Newsletter</a>
+                      {% endif %}
                     </li>
                     <li>
-                        <a class="page-scroll {% if page.url contains '/venue' %}active{% endif %}" href="{{site.baseurl}}/venue">Venue</a>
+                        <a class="{% if page.url contains '/program' %}active{% endif %}" href="{{site.baseurl}}/program/">Program</a>
+                    </li>
+                    <li>
+                        <a class="{% if page.url contains '/venue' %}active{% endif %}" href="{{site.baseurl}}/venue/">Venue</a>
                     </li>
                     <!--<li>
-                        <a class="page-scroll {% if page.url contains '/scholarships' %}active{% endif %}" href="{{site.baseurl}}/scholarships">Scholarships</a>
+                        <a class="{% if page.url contains '/scholarships' %}active{% endif %}" href="{{site.baseurl}}/scholarships">Scholarships</a>
                     </li> -->
                     <!--<li>
-                        <a class="page-scroll {% if page.url contains '/contact' %}active{% endif %}" href="{{site.baseurl}}/contact">Contact</a>
+                        <a class="{% if page.url contains '/contact' %}active{% endif %}" href="{{site.baseurl}}/contact">Contact</a>
                     </li> -->
                     <!--<li>
-                        <a class="page-scroll {% if page.url contains '/codeofconduct' %}active{% endif %}" href="{{site.baseurl}}/codeofconduct">Code of conduct</a>
+                        <a class="{% if page.url contains '/codeofconduct' %}active{% endif %}" href="{{site.baseurl}}/codeofconduct">Code of conduct</a>
                     </li>-->
                 </ul>
             </div>
