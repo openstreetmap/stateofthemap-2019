@@ -1,5 +1,4 @@
 # State of the Map 2019 Website
-===============================
 
 ## Local installation
 
@@ -11,5 +10,5 @@ See http://jekyllrb.com/docs/installation/
 
 * `git clone git@github.com:openstreetmap/stateofthemap-2019.git`
 * `cd stateofthemap-2019`
-* `jekyll serve -w`
+* `jekyll serve -wl`
 * Point your browser to `http://localhost:4000/`
