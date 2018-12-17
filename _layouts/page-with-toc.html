@@ -33,6 +33,20 @@ options: dark-nav
               } else {
               }
             }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              if ($("body").height() > $(window).height()) {
+                $("body").scrollspy({ target: "#toc" });
+              }
+              $(window).resize(function() {
+                if ($("body").height() > $(window).height()) {
+                  $("body").scrollspy({ target: "#toc" });
+                  $("body").scrollspy("refresh");
+                } else {
+                  $("body").scrollspy("clear");
+                }
+              });
+            }, false);
           </script>
         </ul></div>
           <!--end toc -->

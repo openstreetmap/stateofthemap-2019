@@ -16,7 +16,7 @@ For the second time, State of the Map will have a parallel Academic Track to sho
 
 The program will allow attendants to present and learn about latest developments in OpenStreetMap in presentations, lightning talks as well as workshops and birds of a feather sessions. Additionally, for the second time, State of the Map will host a parallel Academic Track to showcase scientific contributions on OSM.
 
-We are looking forward to further designing our program with you and welcome your thoughts and ideas. If you are interested in joining the program committee or if you have any suggestions, please feel free to <a href="sotm@openstreetmap.org">get in touch with us</a>.
+We are looking forward to further designing our program with you and welcome your thoughts and ideas. If you are interested in joining the program committee or if you have any suggestions, please feel free to <a href="mailto:sotm@openstreetmap.org">get in touch with us</a>.
 
 ## Academic Track
 
@@ -24,5 +24,6 @@ We expect to share our call for academic and general session proposals in the be
 
 We're currently looking for further people to join the leading team for the academic track. Find more details in this [call of participation](https://blog.openstreetmap.org/2018/12/16/academic-track-sotm-2019/).
 
+<br>
 
 *Your State of the Map organizing team.*
