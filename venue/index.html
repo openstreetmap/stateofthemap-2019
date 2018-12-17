@@ -8,13 +8,10 @@ title: Venue
     <div class='col12 contain'>
       <div class='space-bottom2 clearfix'>
         <h2 class='space-bottom1'>Conference &ndash; September <span class="numeral">21 - 23</span></h2>
-        <h3 class=''></h3>
-        <div class='prose'>
-          <p>Heidelberg University</p>
-          <p>Campus <em>Neuenheimer Feld</em>:</p>
-          <!-- Map Section -->
-         <div id="map" style="height:420px; width:100%"></div>
-        </div>
+        <h3 style="padding-top: 0">Heidelberg University</h3>
+        <!-- Map Section -->
+        <div id="map" style="height:420px; width:100%"></div>
+        <!-- todo: short text about Heidelberg University and GIScience / HeiGIT. And the venue on the campus. -->
       </div>
     </div>
 
@@ -31,7 +28,7 @@ title: Venue
           iconUrl: "{{ "/img/logo-footer.svg" | prepend: site.baseurl }}",
           iconSize: [40, 40],
           iconAnchor: [20, 20]
-        })}).addTo(map);
+        })}).bindPopup("<h3>Main Conference Venue</h3><p>“Hörsaalzentrum Chemie”<br>(Chemistry Lecture Halls Building),<br>Campus <em>Neuenheimer Feld</em>.</p>").addTo(map);
       }, false);
     </script>
 
