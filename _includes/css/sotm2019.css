@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Barlow',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
     color: {{ site.color.text }};
     background-color: {{ site.color.primary-dark }};
 }
@@ -11,7 +12,7 @@ html {
     height: 100%;
 }
 
-.content {
+.page {
   background-color: {{ site.color.primary-light }};
 }
 
@@ -23,6 +24,15 @@ h5,
 h6 {
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.prose h2 {
+  padding-top: 80px;
+  margin-top: -40px;
+}
+.prose h2:first-child {
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 .uppercase {
@@ -127,6 +137,10 @@ a {
         opacity: 1;
         color: {{ site.color.text }};
     }
+}
+
+.toc ul {
+  margin-left: 20px;
 }
 
 .intro {
@@ -410,10 +424,6 @@ h3.small-title:before {
     left: 0px;
 }
 
-p {
-    font-size: 17px;
-}
-
 @font-face {
     font-family:'d-din';
     src:url('fonts/D-Din/D-DIN.otf') format("opentype");
@@ -488,12 +498,16 @@ input#mce-EMAIL::selection {
 
 
 #footer {
-    font-size: 19px;
     line-height: 35px;
     background-color: {{ site.color.primary-dark }};
 }
 
+#footer a {
+    font-size: 19px;
+}
+
 #footer a.light {
+    font-size: 100%;
     font-weight: normal;
 }
 
@@ -503,6 +517,13 @@ input#mce-EMAIL::selection {
 
 /* Navigation
 ------------------------------------------------------- */
+
+nav {
+  font-size: 15px;
+}
+nav .navbar-brand {
+  font-size: 18px;
+}
 
 .navbar-brand {
     padding-top: 15px;
@@ -514,6 +535,30 @@ input#mce-EMAIL::selection {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-top: 4px;
+}
+
+/* table of contents */
+
+#toc ul li {
+  margin-bottom: 0;
+}
+
+#toc li a {
+  padding: 6px 12px;
+}
+
+#toc li a:hover, #toc li a:focus {
+  background-color: rgba(255,255,255,.05);
+}
+
+#toc li.active a:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: {{ site.color.primary-dark }};
+  position: absolute;
+  bottom: 0px;
 }
 
 

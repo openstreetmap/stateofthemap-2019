@@ -1,0 +1,49 @@
+---
+layout: default
+sitetitle: true
+options: dark-nav
+---
+
+
+<div class='keyline-top pad8y page'>
+  <div class='limiter'>
+    <div class='pad4y col12 clearfix prose min-height'>
+      <div class='col3'>
+        <div data-spy='affix' data-offset-top="-1">
+          <h1 class="purple-text">{{page.title}}</h1>
+          {% if page.titlecontent %}{{page.titlecontent}}{% endif %}
+          <!-- begin toc -->
+          <div id="toc"><ul class="nav toc">
+          <script>
+            //var input = `{{page.subheadings}}`;
+            var input = `{{content}}`;
+            var regex = /<(h2|h3)(?:>|\s+(.*?)>)([^<]*)<\/\1\s*>/mig;
+            var entry;
+            while ((entry = regex.exec(input)) !== null) {
+              // This is necessary to avoid infinite loops with zero-width matches
+              if (entry.index === regex.lastIndex) {
+                regex.lastIndex++;
+              }
+              entry = entry.slice(1);
+              var level = entry[0];
+              var id = entry[1].match(/(^|\s)id=(["'])(.+?)(["'])/)[3]
+              var title = entry[2].replace(/<(\w*).*?>(.*?)<\/\1\s*>/m, '\2')
+              if (level === "h2") {
+                document.write(`<li class=""><a href="#${id}" class="strong block pad1x" title="${title}">${title}</a></li>`);
+              } else {
+              }
+            }
+          </script>
+        </ul></div>
+          <!--end toc -->
+        </div>
+        &nbsp;
+      </div>
+      <div class='col9'>
+        <div class="space-left4 content">
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
