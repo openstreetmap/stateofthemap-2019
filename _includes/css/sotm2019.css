@@ -34,6 +34,21 @@ h6 {
   padding-top: 80px;
   margin-top: -80px;
 }
+@media(max-width:640px) {
+  .prose h2:first-child {
+    padding-top: 0px;
+    margin-top: 0;
+  }
+
+  div.affix {
+    display: block;
+    position: relative;
+  }
+
+  #toc {
+    display: none;
+  }
+}
 
 .uppercase {
     text-transform: uppercase;
