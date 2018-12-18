@@ -54,36 +54,26 @@ h6 {
     text-transform: uppercase;
 }
 
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: white;
-}
-
-.light {
-    font-weight: 400;
-}
-
-.dark {
-    color: {{ site.color.text }};
-}
-
-a {
+nav a, .nav a {
     color: {{ site.color.links }};
+    text-decoration: none;
+    font-weight: 500;
 
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
-.content a {
+a {
+  color: {{ site.color.links }};
   text-decoration: underline;
-  text-decoration-color: {{ site.color.primary-dark }};
 }
 
-.dark a, a.dark, .dark a > code {
-    color: {{ site.color.links }};
-    font-weight: 500;
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: {{ site.color.links }};
 }
 
 .navbar-custom {
