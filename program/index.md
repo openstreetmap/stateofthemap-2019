@@ -2,6 +2,7 @@
 layout: page-with-toc
 title: Program
 titlecontent: ""
+headings: "sotm,academic-track"
 ---
 
 <h2 id="sotm">State of the Map</h2>
