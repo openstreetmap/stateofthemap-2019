@@ -23,8 +23,6 @@ We are looking forward to further designing our program with you and welcome you
 
 We expect to share our call for academic and general session proposals in the beginning of <span class="numeral">2019</span> - <a href="{{site.baseurl}}/#newsletter">sign up to our newsletter</a> for event updates.
 
-We're currently looking for further people to join the leading team for the academic track. Find more details in this [call of participation](https://blog.openstreetmap.org/2018/12/16/academic-track-sotm-2019/).
-
 <br>
 
 *Your State of the Map organizing team.*
