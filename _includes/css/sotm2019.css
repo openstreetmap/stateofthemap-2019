@@ -584,6 +584,17 @@ nav .navbar-brand {
 }
 
 
+p img.bio-pic {
+  height:160px;
+  float:right;
+  clear:right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 1.7em;
+  filter:grayscale(1);
+}
+
+
 
 /* Mobile
 ------------------------------------------------------- */
