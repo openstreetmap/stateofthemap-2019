@@ -25,11 +25,38 @@ We expect to share our call for academic and general session proposals in the be
 
 ### Academic Committee
 
-* <img style="height:160px; float:right; clear:right; margin-left: 1em; margin-bottom: 0.7em; margin-top: 1.7em; filter:grayscale(1);" src="../img/bios/juhasz.jpg"><em>Dr. Levente Juhász</em><br>Levente, originally from Hungary, earned his PhD from the University of Florida. Currently he is with the GIS Center at the Florida International University in Miami, FL. Previously, he was a visiting scientist at the Joint Research Centre in Ispra, Italy, at Carinthia University of Applied Sciences in Austria and he also served as a data scientist for a geospatial startup, Mapillary. His research interests revolve around understanding the nature of user-generated geodata.
-* <img style="height:160px; float:right; clear:right; margin-left: 1em; margin-bottom: 0.7em; margin-top: 1.7em; filter:grayscale(1);" src="../img/bios/mooney.jpg"><em>Dr. Peter Mooney</em><br>Peter Mooney is a tenure track lecturer at the Department of Computer Science in Maynooth University in Ireland. He has been working with spatial data and open source geospatial software for almost two decades now. Peter is recognised as one of the foremost experts in Europe on Crowdsourcing Geographic Information (CGI) and Volunteered Geographic Information (VGI). He has carried out extensive research on OpenStreetMap and other forms of VGI. He is particularly interested in how VGI can be integrated with other sources of geospatial data. He is author or co-author of over 40 peer-reviewed journal publications and over 100 conference publications. In his teaching, research work and public engagement he is a passionate advocate for the use of free and open geospatial data and, of course, free and open software for geomatics. Peter uses OpenStreetMap extensively in his undergraduate and postgraduate teaching. In other duties is co-chair of the Irish OSGeo Local chapter and European Co-Chair for GeoForAll. He is a member of the OSGeo Marketing Committee. He has been involved in the academic and scientific committees for all major GIS conferences both in Europe and globally. In particular he'll be involved in the Academic Committee of the FOSS4G 2019 Global conference in Bucharest.
-* <img style="height:160px; float:right; clear:right; margin-left: 1em; margin-bottom: 0.7em; margin-top: 1.7em; filter:grayscale(1);" src="../img/bios/yeboah.jpg"><em>Dr. Godwin Yeboah</em><br>Dr. Godwin Yeboah is a Senior Research Fellow in Geographical Information Science with an interest in the assessment of, and contribution to, OpenStreetMap data and associated technologies for scientific research and sustainable development. He is a fellow of the Royal Geographical Society (with the Institute of British Geographers).
-* <img style="height:160px; float:right; clear:right; margin-left: 1em; margin-bottom: 0.7em; margin-top: 1.7em; filter:grayscale(1);" src="../img/bios/minghini.jpg"><em>Dr. Marco Minghini</em><br>Dr. Marco Minghini studied at Politecnico di Milano, where he got a BSc and a MSc in Environmental Engineering with specialization in Geomatics and a PhD in GIS. After 4 years spent working as a Postdoctoral Research Fellow in the GIS group of GEOlab at Politecnico di Milano, he has recently joined the European Commission - Joint Research Center (JRC) in Ispra, Italy (Unit B6 "Digital Economy"), where he makes applied research on SDIs and the implementation of the INSPIRE Directive. Marco is an advocate of open source software an open data and has a long research experience in OSM. He is a Charter Member of OSGeo, Secretary of ISPRS WG IV/4 "Collaborative Crowdsourced Cloud Mapping (C3M)", Member of the OpenStreetMap Foundation and Voting Member of HOT.
-* <img style="height:160px; float:right; clear:right; margin-left: 1em; margin-bottom: 0.7em; margin-top: 1.7em; filter:grayscale(1);" src="../img/bios/grinberger.jpg"><em>Dr. A. Yair Grinberger</em><br>Yair earned his PhD in Geography from the Hebrew University of Jerusalem, studying human mobility behaviors using GPS traces. His current research focuses on modelling and quantitatively analyzing socio-cultural processes of data production and their traces in Volunteered Geographical Information datasets. His broader research interests include Geographic Information Science, critical GIS, and digital representations of socio-geographical phenomena.
+You can reach the academic track committee via email to <a href="mailto:academic-sotm@openstreetmap.org">academic-sotm@openstreetmap.org</a>.
+
+* <img class="bio-pic" src="../img/bios/juhasz.jpg">
+  <em>Dr. Levente Juhász</em><br>
+  GIS Center, Florida International University, USA
+
+  Levente, originally from Hungary, earned his PhD from the University of Florida. Currently he is with the GIS Center at the Florida International University in Miami, Florida. Previously, he was a visiting scientist at the Joint Research Centre in Ispra, Italy, at Carinthia University of Applied Sciences in Austria and he also served as a data scientist for a geospatial startup, Mapillary. His research interests revolve around understanding the nature of user-generated geodata.
+
+* <img class="bio-pic" src="../img/bios/mooney.jpg">
+  <em>Dr. Peter Mooney</em><br>
+  Department of Computer Science, Maynooth University, Ireland
+
+  Peter is a tenure track lecturer at the Department of Computer Science in Maynooth University in Ireland. He has been working with spatial data and open source geospatial software for almost two decades now. Peter is recognised as one of the foremost experts in Europe on Crowdsourcing Geographic Information (CGI) and Volunteered Geographic Information (VGI). He has carried out extensive research on OpenStreetMap and other forms of VGI. He is particularly interested in how VGI can be integrated with other sources of geospatial data. He is author or co-author of over 40 peer-reviewed journal publications and over 100 conference publications. In his teaching, research work and public engagement he is a passionate advocate for the use of free and open geospatial data and, of course, free and open software for geomatics. Peter uses OpenStreetMap extensively in his undergraduate and postgraduate teaching. In other duties is co-chair of the Irish OSGeo Local chapter and European Co-Chair for GeoForAll. He is a member of the OSGeo Marketing Committee. He has been involved in the academic and scientific committees for all major GIS conferences both in Europe and globally. In particular he'll be involved in the Academic Committee of the FOSS4G 2019 Global conference in Bucharest.
+
+* <img class="bio-pic" src="../img/bios/yeboah.jpg">
+  <em>Dr. Godwin Yeboah</em><br>
+  Institute for Global Sustainable Development,
+University of Warwick, UK
+
+  Godwin is a Senior Research Fellow in Geographical Information Science with an interest in the assessment of, and contribution to, OpenStreetMap data and associated technologies for scientific research and sustainable development. He is a fellow of the Royal Geographical Society (with the Institute of British Geographers).
+
+* <img class="bio-pic" src="../img/bios/minghini.jpg">
+  <em>Dr. Marco Minghini</em><br>
+  European Commission Joint Research Centre, Ispra, Italy
+
+  Marco studied at Politecnico di Milano, where he got a BSc and a MSc in Environmental Engineering with specialization in Geomatics and a PhD in GIS. After 4 years spent working as a Postdoctoral Research Fellow in the GIS group of GEOlab at Politecnico di Milano, he has recently joined the European Commission - Joint Research Center (JRC) in Ispra, Italy (Unit B6 "Digital Economy"), where he makes applied research on SDIs and the implementation of the INSPIRE Directive. Marco is an advocate of open source software an open data and has a long research experience in OSM. He is a Charter Member of OSGeo, Secretary of ISPRS WG IV/4 "Collaborative Crowdsourced Cloud Mapping (C3M)", Member of the OpenStreetMap Foundation and Voting Member of HOT.
+
+* <img class="bio-pic" src="../img/bios/grinberger.jpg">
+  <em>Dr. A. Yair Grinberger</em><br>
+  GIScience Research Group, Heidelberg University, Germany
+
+  Yair earned his PhD in Geography from the Hebrew University of Jerusalem, studying human mobility behaviors using GPS traces. His current research focuses on modelling and quantitatively analyzing socio-cultural processes of data production and their traces in Volunteered Geographical Information datasets. His broader research interests include Geographic Information Science, critical GIS, and digital representations of socio-geographical phenomena.
 
 <br>
 
