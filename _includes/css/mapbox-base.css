@@ -3425,7 +3425,7 @@ img.inline, .inline           { display:inline-block; }
 
 /* Mobile Layout
 ------------------------------------------------------- */
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:767px) {
   a:link          { -webkit-tap-highlight-color:rgba(0,0,0,0); }
   label .inline a { font-weight:normal; }
 

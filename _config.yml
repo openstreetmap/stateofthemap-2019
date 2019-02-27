@@ -18,3 +18,12 @@ color:
   background-light: '#f5f0e9'
 
 orsApiKey: '5b3ce3597851110001cf62486f661bd027474c2c962acb276bce0da3'
+
+permalink: /:title/
+relative_permalinks: false
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /:title/
