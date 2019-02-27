@@ -62,7 +62,7 @@ If you are not sure where to submit your talk, please do not submit your talk to
 The call for participation of HOT Summit has not opened yet.
 
 <h3 id="tracks__academic_track">Academic Track</h3>
-SotM also has an academic track with its own Call for Abstracts which is dedicated to scientific applications of OSM. Please follow the link to the Call for Abstracts of the academic track if you are willing to propose a contribution for this track. The academic track uses the same submission system, but it has different requirements which are outlined in the [academic call for abstracts](https://2019.stateofthemap.org/CfP/academic/).
+SotM also has an academic track with its own Call for Abstracts which is dedicated to scientific applications of OSM. Please follow the link to the Call for Abstracts of the academic track if you are willing to propose a contribution for this track. The academic track uses the same submission system, but it has different requirements which are outlined in the [academic call for abstracts]({{site.baseurl}}/calls/academic/).
 
 <h2 id="submission_types">Submission Types</h2>
 We provide the following submission types:
