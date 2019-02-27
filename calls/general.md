@@ -2,7 +2,7 @@
 layout: page-with-toc
 title: "Call for Participation and Submission Guidelines"
 titlecontent: ""
-headings: "tracks,submission_types,rating_criteria,language,publication,,travel_costs_visa,timeline_deadlines,programme_committee"
+headings: "tracks,submission_types,rating_criteria,language,publication,travel_costs_visa,timeline_deadlines,programme_committee"
 ---
 
 The State of the Map conference is the annual OpenStreetMap conference run by the OpenStreetMap Foundation. It is organised by the SotM Working Group, a team of volunteers. This year our host is the University of Heidelberg.
