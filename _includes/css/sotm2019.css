@@ -34,7 +34,14 @@ h6 {
   padding-top: 80px;
   margin-top: -80px;
 }
-@media(max-width:640px) {
+
+div.affix {
+  width: 25%;
+  max-width: 300px;
+  padding-right: 1em;
+}
+
+@media(max-width:767px) {
   .prose h2:first-child {
     padding-top: 0px;
     margin-top: 0;
@@ -43,6 +50,8 @@ h6 {
   div.affix {
     display: block;
     position: relative;
+    width: 100%;
+    max-width: 100%;
   }
 
   #toc {
@@ -135,11 +144,15 @@ a:focus {
     }
 
     a.navbar-brand {
+        display: inline-block;
         opacity: 0;
+        width: 0;
+        overflow: hidden;
     }
 
     .navbar-custom.top-nav-collapse a, .stay-collapsed a {
         opacity: 1;
+        width: auto;
         color: {{ site.color.text }};
     }
 }
@@ -588,11 +601,22 @@ nav .navbar-brand {
 }
 
 
+p img.bio-pic {
+  height:160px;
+  float:right;
+  clear:right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 1.7em;
+  filter:grayscale(1);
+}
+
+
 
 /* Mobile
 ------------------------------------------------------- */
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:767px) {
     .intro-body .col4 {
         width: 80%;
         margin-left: 10%;
@@ -604,4 +628,55 @@ nav .navbar-brand {
       position: absolute !important;
       left: 0px;
     }
+}
+
+
+/* tracks */
+
+.trackicon:before {
+  content: "";
+  display: inline-block;
+  height: 0px;
+  width: 0px;
+  border: 5px solid;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-right: 8px;
+  vertical-align: baseline;
+}
+
+.trackicon#track-basics:before {
+  border-color: #49EC19;
+}
+
+.trackicon#track-community:before {
+  border-color: #F10863;
+}
+
+.trackicon#track-mapping:before {
+  border-color: #ED27C9;
+}
+
+.trackicon#track-cartography:before {
+  border-color: #43CCDF;
+}
+
+.trackicon#track-software:before {
+  border-color: #E9ED1C;
+}
+
+.trackicon#track-data:before {
+  border-color: #F6AF23;
+}
+
+.trackicon#track-experiences:before {
+  border-color: #9E3BCD;
+}
+
+.trackicon#track-humanitarian:before {
+  border-color: #ea5959;
+}
+
+.trackicon#track-academic:before {
+  border-color: #dddddd;
 }
