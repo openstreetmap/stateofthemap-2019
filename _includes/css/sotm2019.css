@@ -646,35 +646,31 @@ p img.bio-pic {
 }
 
 .trackicon#track-basics:before {
-  border-color: #49EC19;
+  border-color: #96E185;
 }
 
 .trackicon#track-community:before {
-  border-color: #F10863;
+  border-color: #FC9294;
 }
 
 .trackicon#track-mapping:before {
-  border-color: #ED27C9;
+  border-color: #FFA5EA;
 }
 
 .trackicon#track-cartography:before {
-  border-color: #43CCDF;
+  border-color: #91F7F7;
 }
 
 .trackicon#track-software:before {
-  border-color: #E9ED1C;
+  border-color: #FFFF99;
 }
 
 .trackicon#track-data:before {
-  border-color: #F6AF23;
+  border-color: #FFCF3F;
 }
 
 .trackicon#track-experiences:before {
-  border-color: #9E3BCD;
-}
-
-.trackicon#track-humanitarian:before {
-  border-color: #ea5959;
+  border-color: #C7C7F9;
 }
 
 .trackicon#track-academic:before {
