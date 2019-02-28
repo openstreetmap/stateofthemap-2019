@@ -1,6 +1,6 @@
 ---
 layout: page-with-toc
-title: "Call for Participation"
+title: "Call for Participation and Submission Guidelines"
 titlecontent: ""
 headings: "tracks,submission,rating,language,publication,travel_costs_visa,timeline_deadlines,committee,submit"
 ---
@@ -8,8 +8,6 @@ headings: "tracks,submission,rating,language,publication,travel_costs_visa,timel
 The State of the Map conference is the annual OpenStreetMap conference run by the OpenStreetMap Foundation. It is organised by the SotM Working Group, a team of volunteers. This year our host is the University of Heidelberg.
 
 State of the Map is intended as an opportunity for the OpenStreetMap community to get to know each other, both personally and regarding their work in OpenStreetMap. People who visit the conference take home lots of new ideas for their own OpenStreetMap projects. We want to offer a widespread OpenStreetMap related program that covers all topics relevant to OpenStreetMap. Sharing OpenStreetMap knowledge is the essence of SotM. Apart from the presentations themselves, it is an important aspect of the conference that listeners can interact with the speaker for questions and discussion. We want to offer an atmosphere that boosts vivid discussions, including about controversial topics. We try to solicit contributions from all topics of the OpenStreetMap ecosystem.
-
-You can be a part of this event by proposing a talk to either the main conference tracks or the academic part of the conference. You are encouraged to submit proposals for talks, academic talks, lightning talks, and workshops of any topic related to the world of OpenStreetMap. If you require a grant or scholarship to attend, don't hassle to [apply for a scholarship](https://blog.openstreetmap.org/2019/02/26/apply-for-scholarship-to-join-us-at-state-of-the-map-2019-in-heidelberg/)!
 
 We would love to see your submission for one or more of these tracks:
 
@@ -52,7 +50,7 @@ This track is all about the usage of OSM. Examples are usage in administration a
 <h3 id="track-humanitarian" class="trackicon">Humanitarian</h3>
 In the two days preceding SotM, HOT Summit will be held in the same location.
 
-* If you intend to submit a talk with an essentially humanitarian topic and which addresses mainly humanitarian visitors, it could be more suitable for the [HOT Summit](https://summit2019.hotosm.org/).
+* If you intend to submit a talk with an essentially humanitarian topic, it could be more suitable for the [HOT Summit](https://summit2019.hotosm.org/). If your talk addresses mainly humanitarian visitors then you should submit it for the HOT Summit.
 * If your talk transcends the humanitarian aspect then it could also be interesting for the non-humanitarian audience and fit well to SotM.
 
 If you are not sure where to submit your talk, please do not submit your talk to both conferences. Instead, please get in touch with the program committees ([program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org) and [summit@hotosm.org](summit@hotosm.org)) beforehand.
@@ -71,7 +69,7 @@ Classic talk with 20 minutes for the talk itself and 5 minutes for questions. Th
 <h3 id="submission-workshop">Workshop (60–90 minutes)</h3>
 We appreciate the submission of workshops. Visitors always tell us that there is a need. Both workshops about innovative technologies and about basic knowledge are in demand. Basic mapping workshops could also happen outdoor. Further topics could be basic OSM editing workshops using JOSM or ID. How to render a map? How to print a map?
 
-We are now reserving the term "workshop" for sessions in which the audience is actively involved, for example by following some steps on their own devices. If you are submitting an extended presentation, but are not planning on hands-on experience then please use the "extended talk" submission type. Please communicate any requirements an attendee should fulfil in order to attend your proposed workshop regarding technical equipment, or the need to create accounts on specific online platforms.
+We are now reserving the term "workshop" for sessions in which the audience is actively involved, for example by following some steps on their own devices. If you are submitting an extended presentation, but are not planning on hands-on experience then please use the "extended talk" submission type. Please communicate any requirements an attendee should fulfil in order to attend your proposed workshop regarding technical equipment. Please ensure that your visitors shouldn't be told to create an account at a business platform or a platform with user tracking. Or if so communicate that in an exposed way in your submission and provide guest accounts for your vistors.
 
 <h3 id="submission-extended_talk">Extended Talk (40 minutes)</h3>
 An extended talk with 40 minutes for the talk and 15 minutes for questions. In past years we provided such extended talks under the label workshop, which didn‘t fit so well. You should outline why your talk deserves more time.
@@ -104,7 +102,7 @@ Sometimes we will make some changes or have suggestions:
 <h2 id="language">Language</h2>
 The conference language of State of the Map is English. All presentations shall be held in English. It is an important aspect of the conference that visitors can interact with the speaker for questions and discussion.
 
-Non-English visitors are welcome to meet in Bird of Feather sessions (BoF). We will provide a wiki page for organizing BoF sessions in languages other than English as well as bilingual/translated BoF sessions.
+Non-English visitors are welcome to meet in Bird of Feather sessions (BoF). Last year in Milan we had some awesome BoF sessions in non-English with English translation. We will provide a wiki page for organizing that.
 
 <h2 id="publication">Publication</h2>
 Video recordings and slides of the lectures will be published under the Creative Commons Attribution International 3.0 or later (CC BY 3.0+) license. If you do not wish your lectures to be published or streamed, please let us know in your submission.
@@ -148,7 +146,7 @@ The program committee is aware of possible *conflict of interest* situations. We
 * We communicate to other PC members when we are in a conflict of interest situations.
 * We report any outside attempt of influencing their decisions to the chair of the SotM Working Group.
 
-We hope this detailed "Call for Presentations" helps to increase the transparency of our program selection process. Questions are welcome. You can read us at the following email address: [program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org).
+We hope this detailed "Call for Presentations" helps to increase the transparency of our program selection process. Questions are welcome. You can write us at the following email address: [program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org).
 
 
 <h2 id="submit">Submit your presentation</h2>
@@ -157,4 +155,4 @@ Please submit your presentation proposal to our **[submission form](https://pret
 
 <hr>
 
-_The SotM 2019 Program Committee, February 28, 2019_
+_The SotM 2019 Program Committee, 28 February 2019_
