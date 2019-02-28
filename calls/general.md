@@ -25,31 +25,31 @@ We would love to see your submission for one or more of these tracks:
 
 Don't worry too much about the track categories; they help us organise the conference, but if you find it difficult to select the right track for your talk, just choose the one that fits best and we will make adjustments if necessary.
 
-<h3 id="track-basics">OSM Basics</h3>
+<h3 id="track-basics" class="trackicon">OSM Basics</h3>
 
 OSM  has grown a lot. Many newcomers have a great thirst for knowledge in areas that may seen uninteresting and basic to others. We reserve a  number of slots for talks that help to satisfy this need. It is  important that you have real expertise in the subject you want to talk  about and have the ability to make it comprehensible.  Please note in the submission what approximate level of previous knowledge is required.
 
 Examples for this kind of talk are: Explaining the OSM data model. Education in OSM Editors or cartography tools. Becoming a working group member. Please do not submit talks that require the audience to buy software or  services, create an account on a business platform, or a platform with  user tracking.
 
-<h3 id="track-community">Community and Foundation</h3>
+<h3 id="track-community" class="trackicon">Community and Foundation</h3>
 Do you want to recount your experiences while community building? Or do you want to talk about the vision of OSMF? Or discuss the strategy of the Board? Also reflecting diversity of community or questions of etiquette are suitable for this track. Other topics could be „why  become an OSMF member“, working group experiences, …
 
-<h3 id="track-mapping">Mapping</h3>
+<h3 id="track-mapping" class="trackicon">Mapping</h3>
 All about mapping, surveying, data collection, and tagging. Tips and reflections on OSM editors, or new editor features. Reflections on automated mapping, organised editing and imports.
 
-<h3 id="track-cartography">Cartography</h3>
+<h3 id="track-cartography" class="trackicon">Cartography</h3>
 Cartography and data visualisation, rendering raster and vector maps, map styles, CartoCSS, usage of Kosmtik, maps with QGIS, printing maps and more. All your ideas on how to create a map.
 
-<h3 id="track-software">Software Development</h3>
+<h3 id="track-software" class="trackicon">Software Development</h3>
 This track awaits talks by or for developers of applications that make use of OSM data, e.g. OSM editors, (vector) tile servers, geocoding, routing, navigation. Tips and tricks with new PostGIS features, or new features of other tools and applications.
 
-<h3 id="track-data">Data Analysis and Data Model</h3>
+<h3 id="track-data" class="trackicon">Data Analysis and Data Model</h3>
 This track is dedicated to OSM data itself. Analysis of OSM data quality. Reflections about enhancing the data model, or discussing the way the OSM data is accessed through the API. Also submissions about deep lerning are welcome in this track.
 
-<h3 id="track-experiences">User Experiences</h3>
+<h3 id="track-experiences" class="trackicon">User Experiences</h3>
 This track is all about the usage of OSM. Examples are usage in administration and government or public transport. Also the humanitarian context (* see the annotations below concerning the HOT Summit) and scientific context (* see the annotations below concerning the academic track).
 
-<h3 id="track-humanitarian">Humanitarian</h3>
+<h3 id="track-humanitarian" class="trackicon">Humanitarian</h3>
 In the two days preceding SotM, HOT Summit will be held in the same location.
 
 * If you intend to submit a talk with an essentially humanitarian topic and which addresses mainly humanitarian visitors, it could be more suitable for the [HOT Summit](https://summit2019.hotosm.org/).
@@ -59,7 +59,7 @@ If you are not sure where to submit your talk, please do not submit your talk to
 
 (The call for participation of HOT Summit has not opened yet.)
 
-<h3 id="track-academic_track">Academic Track</h3>
+<h3 id="track-academic" class="trackicon">Academic Track</h3>
 SotM also has an academic track with its own Call for Abstracts which is dedicated to scientific applications of OSM. Please follow the link to the Call for Abstracts of the academic track if you are willing to propose a contribution for this track. The academic track uses the same submission system, but it has different requirements which are outlined in the [academic call for abstracts]({{site.baseurl}}/calls/academic/).
 
 <h2 id="submission">Submission Types</h2>

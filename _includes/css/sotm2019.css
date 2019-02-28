@@ -625,3 +625,54 @@ p img.bio-pic {
       left: 0px;
     }
 }
+
+
+/* tracks */
+
+.trackicon:before {
+  content: "";
+  display: inline-block;
+  height: 0px;
+  width: 0px;
+  border: 5px solid;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-right: 8px;
+  vertical-align: baseline;
+}
+
+.trackicon#track-basics:before {
+  border-color: #96e185;
+}
+
+.trackicon#track-community:before {
+  border-color: #abb9ed;
+}
+
+.trackicon#track-mapping:before {
+  border-color: #f8d671;
+}
+
+.trackicon#track-cartography:before {
+  border-color: #a58771;
+}
+
+.trackicon#track-software:before {
+  border-color: #3eab9f;
+}
+
+.trackicon#track-data:before {
+  border-color: #35b6ef;
+}
+
+.trackicon#track-experiences:before {
+  border-color: #aebfd1;
+}
+
+.trackicon#track-humanitarian:before {
+  border-color: #ea5959;
+}
+
+.trackicon#track-academic:before {
+  border-color: #dddddd;
+}
