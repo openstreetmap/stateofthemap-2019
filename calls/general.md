@@ -146,7 +146,7 @@ The program committee is aware of possible *conflict of interest* situations. We
 * We communicate to other PC members when we are in a conflict of interest situations.
 * We report any outside attempt of influencing their decisions to the chair of the SotM Working Group.
 
-We hope this detailed "Call for Presentations" helps to increase the transparency of our program selection process. Questions are welcome. You can write us at the following email address: [program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org).
+We hope this detailed "Call for Presentations" helps to increase the transparency of our program selection process. Questions are welcome. You can reach us at the following email address: [program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org).
 
 
 <h2 id="submit">Submit your presentation</h2>
