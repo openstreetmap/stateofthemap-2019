@@ -114,7 +114,6 @@ If you need help applying for a visa, e.g. an official invitation to present to 
 30 March 2019: Deadline call for scholarship<br>
 25 April 2019: Deadline talk submissions<br>
 20 June 2019: Program announcement<br>
-19-20 September 2019: HOT Summit<br>
 21-23 September 2019: State of the Map<br>
 
 <h2 id="committee">Program Committee</h2>
