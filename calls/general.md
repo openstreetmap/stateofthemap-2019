@@ -27,7 +27,7 @@ Don't worry too much about the track categories; they help us organise the confe
 
 OSM  has grown a lot. Many newcomers have a great thirst for knowledge in areas that may seen uninteresting and basic to others. We reserve a  number of slots for talks that help to satisfy this need. It is  important that you have real expertise in the subject you want to talk  about and have the ability to make it comprehensible.  Please note in the submission what approximate level of previous knowledge is required.
 
-Examples for this kind of talk are: Explaining the OSM data model. Education in OSM Editors or cartography tools. Becoming a working group member. Please do not submit talks that require the audience to buy software or  services, create an account on a business platform, or a platform with  user tracking.
+Examples for this kind of talk are: Explaining the OSM data model. Education in OSM Editors or cartography tools. Becoming a working group member. Please do not submit talks that require the audience to buy software or service subscriptions, create an account on a business platform, or a platform with user tracking.
 
 <h3 id="track-community" class="trackicon">Community and Foundation</h3>
 Do you want to recount your experiences while community building? Or do you want to talk about the vision of OSMF? Or discuss the strategy of the Board? Also reflecting diversity of community or questions of etiquette are suitable for this track. Other topics could be „why  become an OSMF member“, working group experiences, …
@@ -47,16 +47,16 @@ This track is dedicated to OSM data itself. Analysis of OSM data quality. Reflec
 <h3 id="track-experiences" class="trackicon">User Experiences</h3>
 This track is all about the usage of OSM. Examples are usage in administration and government or public transport. This includes the humanitarian and scientific context as well. Please see the annotations below concerning the HOT Summit and the academic track.
 
-In the two days preceding SotM, HOT Summit will be held in the same location.
+In the two days preceding the State of the Map, the [HOT Summit](https://summit2019.hotosm.org/) will be held in the same location.
 
-* If you intend to submit a talk with an essentially humanitarian topic, it could be more suitable for the [HOT Summit](https://summit2019.hotosm.org/). If your talk addresses mainly humanitarian visitors then you should submit it for the HOT Summit.
-* If your talk transcends the humanitarian aspect then it could also be interesting for the non-humanitarian audience and fit well to SotM.
+* If you intend to submit a talk with an essentially humanitarian topic, it could be more suitable for the HOT Summit. If your talk addresses mainly humanitarian visitors then you should submit it to the HOT Summit.
+* If your talk transcends the humanitarian aspect then it could also be interesting for the non-humanitarian audience and fit well into SotM.
 
 If you are not sure where to submit your talk, please do not submit your talk to both conferences. Instead, please get in touch with the program committees ([program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org) and [summit@hotosm.org](summit@hotosm.org)) beforehand.
 
-(The call for participation of HOT Summit has not opened yet.)
+(The call for participation of the HOT Summit has not opened yet.)
 
-SotM also has an academic track with its own Call for Abstracts which is dedicated to scientific applications of OSM. Please follow the link to the Call for Abstracts of the academic track if you are willing to propose a contribution for this track. The academic track uses the same submission system, but it has different requirements which are outlined in the [academic call for abstracts]({{site.baseurl}}/calls/academic/).
+SotM also has an academic track with its own Call for Abstracts which is dedicated to scientific applications of OSM. Please follow the link to the Call for Abstracts of the academic track if you are willing to propose a contribution for this track. The academic track uses the same submission system, but it has different requirements which are outlined in the [call for academic abstracts]({{site.baseurl}}/calls/academic/).
 
 <h2 id="submission">Submission Types</h2>
 We provide the following submission types:
@@ -65,9 +65,9 @@ We provide the following submission types:
 Classic talk with 20 minutes for the talk itself and 5 minutes for questions. This is the preferred submission type.
 
 <h3 id="submission-workshop">Workshop (60–90 minutes)</h3>
-We appreciate the submission of workshops. Visitors always tell us that there is a need. Both workshops about innovative technologies and about basic knowledge are in demand. Basic mapping workshops could also happen outdoor. Further topics could be basic OSM editing workshops using JOSM or ID. How to render a map? How to print a map?
+We appreciate the submission of workshops, especially since visitors of previous years' SotMs often told us that they would apreciate the possibility to attend more workshops about about basic OSM topics as well as about innovative technologies. Basic mapping workshops could even happen outdoors. Further topics could be basic OSM editing workshops using JOSM or ID. How to render a map? How to print a map?
 
-We are now reserving the term "workshop" for sessions in which the audience is actively involved, for example by following some steps on their own devices. If you are submitting an extended presentation, but are not planning on hands-on experience then please use the "extended talk" submission type. Please communicate any requirements an attendee should fulfil in order to attend your proposed workshop regarding technical equipment. Please ensure that your visitors shouldn't be told to create an account at a business platform or a platform with user tracking. Or if so communicate that in an exposed way in your submission and provide guest accounts for your vistors.
+We are reserving the term "workshop" for sessions in which the audience is actively involved, for example by following some steps on their own devices. If you are however planning to submit a longer presentation which doesn't involve hands-on experience, then please use the "extended talk" submission type (see below). Please communicate any requirements an attendee should fulfil in order to attend your proposed workshop regarding technical equipment. Please ensure that your visitors shouldn't be told to create an account at a business platform or a platform with user tracking. Or if so communicate that in an exposed way in your submission and provide guest accounts for your vistors.
 
 <h3 id="submission-extended_talk">Extended Talk (40 minutes)</h3>
 An extended talk with 40 minutes for the talk and 15 minutes for questions. In past years we provided such extended talks under the label workshop, which didn‘t fit so well. You should outline why your talk deserves more time.
@@ -100,7 +100,7 @@ Sometimes we will make some changes or have suggestions:
 <h2 id="language">Language</h2>
 The conference language of State of the Map is English. All presentations shall be held in English. It is an important aspect of the conference that visitors can interact with the speaker for questions and discussion.
 
-Non-English visitors are welcome to meet in Bird of Feather sessions (BoF). Last year in Milan we had some awesome BoF sessions in non-English with English translation. We will provide a wiki page for organizing that.
+Non-English visitors are welcome to meet in Bird of Feather sessions (BoF). We will provide a wiki page for organizing BoF sessions in languages other than English with English translation.
 
 <h2 id="publication">Publication</h2>
 Video recordings and slides of the lectures will be published under the Creative Commons Attribution International 3.0 or later (CC BY 3.0+) license. If you do not wish your lectures to be published or streamed, please let us know in your submission.
