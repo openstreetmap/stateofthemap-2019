@@ -45,9 +45,8 @@ This track awaits talks by or for developers of applications that make use of OS
 This track is dedicated to OSM data itself. Analysis of OSM data quality. Reflections about enhancing the data model, or discussing the way the OSM data is accessed through the API. Also submissions about deep lerning are welcome in this track.
 
 <h3 id="track-experiences" class="trackicon">User Experiences</h3>
-This track is all about the usage of OSM. Examples are usage in administration and government or public transport. Also the humanitarian context (* see the annotations below concerning the HOT Summit) and scientific context (* see the annotations below concerning the academic track).
+This track is all about the usage of OSM. Examples are usage in administration and government or public transport. This includes the humanitarian and scientific context as well. Please see the annotations below concerning the HOT Summit and the academic track.
 
-<h3 id="track-humanitarian" class="trackicon">Humanitarian</h3>
 In the two days preceding SotM, HOT Summit will be held in the same location.
 
 * If you intend to submit a talk with an essentially humanitarian topic, it could be more suitable for the [HOT Summit](https://summit2019.hotosm.org/). If your talk addresses mainly humanitarian visitors then you should submit it for the HOT Summit.
@@ -57,7 +56,6 @@ If you are not sure where to submit your talk, please do not submit your talk to
 
 (The call for participation of HOT Summit has not opened yet.)
 
-<h3 id="track-academic" class="trackicon">Academic Track</h3>
 SotM also has an academic track with its own Call for Abstracts which is dedicated to scientific applications of OSM. Please follow the link to the Call for Abstracts of the academic track if you are willing to propose a contribution for this track. The academic track uses the same submission system, but it has different requirements which are outlined in the [academic call for abstracts]({{site.baseurl}}/calls/academic/).
 
 <h2 id="submission">Submission Types</h2>
