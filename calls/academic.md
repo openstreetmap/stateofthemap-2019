@@ -2,7 +2,7 @@
 layout: page-with-toc
 title: "Call for Abstracts: Academic Track"
 titlecontent: ""
-headings: "intro,guidelines,committee"
+headings: "intro,guidelines,committee,language,publication,travel_costs_visa,timeline_deadlines"
 ---
 
 <h2 id="intro">Academic Track</h2>
@@ -68,3 +68,22 @@ You can reach the academic track committee via email to <a href="mailto:academic
   Institute for Global Sustainable Development, University of Warwick, UK
 
   Godwin is a Senior Research Fellow in Geographical Information Science with an interest in the assessment of, and contribution to, OpenStreetMap data and associated technologies for scientific research and sustainable development. He is a fellow of the Royal Geographical Society (with the Institute of British Geographers).
+
+
+<h2 id="language">Language</h2>
+The conference language of State of the Map is English. All presentations shall be held in English. It is an important aspect of the conference that visitors can interact with the speaker for questions and discussion.
+
+<h2 id="publication">Publication</h2>
+Video recordings and slides of the lectures will be published under the Creative Commons Attribution International 3.0 or later (CC BY 3.0+) license. If you do not wish your lectures to be published or streamed, please let us know in your submission.
+
+<h2 id="travel_costs_visa">Travel Costs and Visa</h2>
+State of the Map is a non-commercial event where neither the organisers nor the speakers are being paid. Speakers have to buy a conference ticket just like everyone else. If necessary, we are able to provide limited support for travel costs. Our [call for scholars](https://blog.openstreetmap.org/2019/02/26/apply-for-scholarship-to-join-us-at-state-of-the-map-2019-in-heidelberg/) is open until 30 March 2019.
+
+If you need help applying for a visa, e.g. an official invitation to present to the German embassy, we can provide that. Please be aware that the visa application procedure may take several weeks or even months.
+
+<h2 id="timeline_deadlines">Timeline and Deadlines</h2>
+30 March 2019: Deadline call for scholarship<br>
+25 April 2019: Deadline non-academic talk submissions<br>
+30 April 2019: Deadline academic talk submissions<br>
+20 June 2019: Program announcement<br>
+21-23 September 2019: State of the Map<br>
