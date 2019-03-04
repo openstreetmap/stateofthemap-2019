@@ -32,7 +32,7 @@ There are no specific formatting or layout guidelines as the abstract will be su
 
 Abstracts will be evaluated by the Scientific Committee. Authors of selected abstracts will be invited to give an oral presentation during the Academic Track sessions at the conference. The selected abstracts will be published as a collection with a distinct Digital Object Identifier (DOI) in an open access online repository (e.g. [Zenodo](https://zenodo.org/)).  
 
-The scientific committee will seek to further disseminate the contributions made to the Academic Track by organizing a Special Issue in a relevant, open access, scientific journal (e.g. ISPRS International Journal of Geo-Information, Open Geospatial Data, Software and Standards). Authors of the selected abstracts will be invited to submit a full paper to this Special Issue. Successful submissions will enjoy partial or full waiver of publication fees.
+The scientific committee will seek to further disseminate the contributions made to the Academic Track by organizing a Special Issue in a relevant, open access, scientific journal (e.g. [ISPRS International Journal of Geo-Information](https://www.mdpi.com/journal/ijgi) or [Open Geospatial Data, Software and Standards](https://opengeospatialdata.springeropen.com/)). Authors of the selected abstracts will be invited to submit a full paper to this Special Issue. Successful submissions will enjoy partial or full waiver of publication fees.
 
 <h2 id="committee">Scientific Committee</h2>
 
