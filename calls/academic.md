@@ -2,7 +2,7 @@
 layout: page-with-toc
 title: "Call for Abstracts: Academic Track"
 titlecontent: ""
-headings: "intro,guidelines,committee,language,publication,travel_costs_visa,timeline_deadlines"
+headings: "intro,guidelines,committee,language,recording,travel_costs_visa,timeline_deadlines"
 ---
 
 <h2 id="intro">Academic Track</h2>
@@ -73,7 +73,7 @@ You can reach the academic track committee via email to <a href="mailto:academic
 <h2 id="language">Language</h2>
 The conference language of State of the Map is English. All presentations shall be held in English. It is an important aspect of the conference that visitors can interact with the speaker for questions and discussion.
 
-<h2 id="publication">Publication</h2>
+<h2 id="recording">Recordings</h2>
 Video recordings and slides of the lectures will be published under the Creative Commons Attribution International 3.0 or later (CC BY 3.0+) license. If you do not wish your lectures to be published or streamed, please let us know in your submission.
 
 <h2 id="travel_costs_visa">Travel Costs and Visa</h2>
