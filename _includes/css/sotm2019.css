@@ -592,12 +592,24 @@ nav .navbar-brand {
     filter: grayscale(1);
 }
 
-#sponsors a {
+#sponsors a.sponsor {
     text-decoration: none;
 }
 
 #sponsors a:hover img {
     opacity: .7;
+}
+
+#sponsors .sponsors.platinum {
+  font-size: 150%;
+}
+
+#sponsors .sponsors.gold {
+  font-size: 135%;
+}
+
+#sponsors .sponsors.silver {
+  font-size: 115%;
 }
 
 
