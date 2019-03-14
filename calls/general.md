@@ -124,6 +124,7 @@ Your submissions will be reviewed by a program committee consisting of OpenStree
 * Benoît Fournier (SotM Working Group, France)
 * Gregory Marler (SotM Working Group, United Kingdom)
 * Ilya Zverev (forum moderator, Russia)
+* Jennings Anderson (researcher, United States)
 * Manfred Stock (mapper, Switzerland)
 * Martin Raifer (local team Heidelberg)
 * Mats'eliso Thobei (mapper, Lesotho and Ireland)
