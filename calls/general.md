@@ -2,7 +2,7 @@
 layout: page-with-toc
 title: "Call for Participation and Submission Guidelines"
 titlecontent: ""
-headings: "tracks,submission,rating,language,publication,travel_costs_visa,timeline_deadlines,committee,submit"
+headings: "tracks,submission,rating,language,publication,travel_costs_visa,committee,timeline_deadlines,submit"
 ---
 
 The State of the Map conference is the annual OpenStreetMap conference run by the OpenStreetMap Foundation. It is organised by the SotM Working Group, a team of volunteers. This year our host is the University of Heidelberg.
@@ -110,12 +110,6 @@ State of the Map is a non-commercial event where neither the organisers nor the 
 
 If you need help applying for a visa, e.g. an official invitation to present to the German embassy, we can provide that. Please be aware that the visa application procedure may take several weeks or even months.
 
-<h2 id="timeline_deadlines">Timeline and Deadlines</h2>
-30 March 2019: Deadline call for scholarship<br>
-25 April 2019: Deadline talk submissions<br>
-20 June 2019: Program announcement<br>
-21-23 September 2019: State of the Map<br>
-
 <h2 id="committee">Program Committee</h2>
 Your submissions will be reviewed by a program committee consisting of OpenStreetMap community members from various parts of the world.
 
@@ -146,6 +140,12 @@ The program committee is aware of possible *conflict of interest* situations. We
 
 We hope this detailed "Call for Presentations" helps to increase the transparency of our program selection process. Questions are welcome. You can reach us at the following email address: [program-sotm@openstreetmap.org](mailto:program-sotm@openstreetmap.org).
 
+<h2 id="timeline_deadlines">Timeline and Deadlines</h2>
+30 March 2019: Deadline call for scholarship<br>
+25 April 2019: Deadline talk submissions<br>
+10 May 2019: Deadline academic talk submissions<br>
+20 June 2019: Program announcement<br>
+21-23 September 2019: State of the Map<br>
 
 <h2 id="submit">Submit your presentation</h2>
 

@@ -2,7 +2,7 @@
 layout: page-with-toc
 title: "Call for Abstracts: Academic Track"
 titlecontent: ""
-headings: "intro,guidelines,committee,language,recording,travel_costs_visa,timeline_deadlines"
+headings: "intro,guidelines,committee,language,recording,travel_costs_visa,timeline_deadlines,submit"
 ---
 
 <h2 id="intro">Academic Track</h2>
@@ -84,6 +84,14 @@ If you need help applying for a visa, e.g. an official invitation to present to 
 <h2 id="timeline_deadlines">Timeline and Deadlines</h2>
 30 March 2019: Deadline call for scholarship<br>
 25 April 2019: Deadline non-academic talk submissions<br>
-30 April 2019: Deadline academic talk submissions<br>
+10 May 2019: Deadline academic talk submissions<br>
 20 June 2019: Program announcement<br>
 21-23 September 2019: State of the Map<br>
+
+<h2 id="submit">Submit your presentation</h2>
+
+Please submit your presentation proposal to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
+
+<hr>
+
+_The SotM 2019 Scientific Committee, 15 March 2019_
