@@ -7,7 +7,7 @@ headings: "intro,guidelines,timeline_deadlines,submit,committee,language,recordi
 
 <h2>tl;dr</h2>
 
-Please read our [submission guidelines](#guidelines) below and submit your presentation proposal before May 10 to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
+Please read our [submission guidelines](#guidelines) below and submit your presentation proposal before May&nsbp;10 to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
 
 <h2 id="intro">Academic Track</h2>
 
@@ -26,7 +26,7 @@ This year's State of the Map conference will again feature a full day Academic T
 
 <h2 id="guidelines">Submission Guidelines</h2>
 
-Authors are invited to submit abstracts using the State of the Map&nbsp;<span class="numeral">2019</span> _Pretalx_ [submission system](https://pretalx.com/sotm2019-at/cfp). Deadline for submission is May <span class="numeral">10</span>, <span class="numeral">2019</span>.
+Authors are invited to submit abstracts using the State of the Map&nbsp;<span class="numeral">2019</span> _Pretalx_ [submission system](https://pretalx.com/sotm2019-at/cfp). Deadline for submission is May&nsbp;<span class="numeral">10</span>, <span class="numeral">2019</span>.
 
 Abstracts should include from a minimum of 500 to a maximum of 800 words.These limits will be strictly enforced for a fair and balanced review process.
 

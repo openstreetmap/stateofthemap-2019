@@ -7,7 +7,7 @@ headings: "tracks,submission,rating,language,publication,travel_costs_visa,commi
 
 <h2>tl;dr</h2>
 
-Please read our submission guidelines below and submit your presentation proposal before April 25 to our **[submission form](https://pretalx.com/sotm2019/cfp)**.
+Please read our submission guidelines below and submit your presentation proposal before April&nsbp;25 to our **[submission form](https://pretalx.com/sotm2019/cfp)**.
 
 <h2 id="call">Call for Participation</h2>
 
