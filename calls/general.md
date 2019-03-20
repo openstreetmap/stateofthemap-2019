@@ -5,6 +5,12 @@ titlecontent: ""
 headings: "tracks,submission,rating,language,publication,travel_costs_visa,committee,timeline_deadlines,submit"
 ---
 
+<h2>tl;dr</h2>
+
+Please read our submission guidelines below and submit your presentation proposal before April 25 to our **[submission form](https://pretalx.com/sotm2019/cfp)**.
+
+<h2 id="call">Call for Participation</h2>
+
 The State of the Map conference is the annual OpenStreetMap conference run by the OpenStreetMap Foundation. It is organised by the SotM Working Group, a team of volunteers. This year our host is the University of Heidelberg.
 
 State of the Map is intended as an opportunity for the OpenStreetMap community to get to know each other, both personally and regarding their work in OpenStreetMap. People who visit the conference take home lots of new ideas for their own OpenStreetMap projects. We want to offer a widespread OpenStreetMap related program that covers all topics relevant to OpenStreetMap. Sharing OpenStreetMap knowledge is the essence of SotM. Apart from the presentations themselves, it is an important aspect of the conference that listeners can interact with the speaker for questions and discussion. We want to offer an atmosphere that boosts vivid discussions, including about controversial topics. We try to solicit contributions from all topics of the OpenStreetMap ecosystem.
@@ -143,7 +149,7 @@ We hope this detailed "Call for Presentations" helps to increase the transparenc
 <h2 id="timeline_deadlines">Timeline and Deadlines</h2>
 30 March 2019: Deadline call for scholarship<br>
 25 April 2019: Deadline talk submissions<br>
-10 May 2019: Deadline academic talk submissions<br>
+10 May 2019: Deadline [academic talk submissions]({{site.baseurl}}/calls/academic)<br>
 20 June 2019: Program announcement<br>
 21-23 September 2019: State of the Map<br>
 

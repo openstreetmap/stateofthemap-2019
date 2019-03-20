@@ -2,8 +2,12 @@
 layout: page-with-toc
 title: "Call for Abstracts: Academic Track"
 titlecontent: ""
-headings: "intro,guidelines,committee,language,recording,travel_costs_visa,timeline_deadlines,submit"
+headings: "intro,guidelines,timeline_deadlines,submit,committee,language,recording,travel_costs_visa"
 ---
+
+<h2>tl;dr</h2>
+
+Please read our [submission guidelines](#guidelines) below and submit your presentation proposal before May 10 to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
 
 <h2 id="intro">Academic Track</h2>
 
@@ -22,7 +26,7 @@ This year's State of the Map conference will again feature a full day Academic T
 
 <h2 id="guidelines">Submission Guidelines</h2>
 
-Authors are invited to submit abstracts using the State of the Map&nbsp;<span class="numeral">2019</span> _Pretalx_ submission system. Deadline for submission is April <span class="numeral">30</span>, <span class="numeral">2019</span>.
+Authors are invited to submit abstracts using the State of the Map&nbsp;<span class="numeral">2019</span> _Pretalx_ [submission system](https://pretalx.com/sotm2019-at/cfp). Deadline for submission is May <span class="numeral">10</span>, <span class="numeral">2019</span>.
 
 Abstracts should include from a minimum of 500 to a maximum of 800 words.These limits will be strictly enforced for a fair and balanced review process.
 
@@ -34,8 +38,19 @@ Abstracts will be evaluated by the Scientific Committee. Authors of selected abs
 
 The scientific committee will seek to further disseminate the contributions made to the Academic Track by organizing a Special Issue in a relevant, open access, scientific journal (e.g. [ISPRS International Journal of Geo-Information](https://www.mdpi.com/journal/ijgi) or [Open Geospatial Data, Software and Standards](https://opengeospatialdata.springeropen.com/)). Authors of the selected abstracts will be invited to submit a full paper to this Special Issue. Successful submissions will enjoy partial or full waiver of publication fees.
 
-<h2 id="committee">Scientific Committee</h2>
+<h2 id="timeline_deadlines">Timeline and Deadlines</h2>
 
+30 March 2019: Deadline call for scholarship<br>
+25 April 2019: Deadline [non-academic talk submissions]({{site.baseurl}}/calls/general)<br>
+10 May 2019: Deadline academic talk submissions<br>
+20 June 2019: Program announcement<br>
+21-23 September 2019: State of the Map<br>
+
+<h2 id="submit">Submit your presentation</h2>
+
+Please submit your presentation proposal to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
+
+<h2 id="committee">Scientific Committee</h2>
 
 You can reach the academic track committee via email to <a href="mailto:academic-sotm@openstreetmap.org">academic-sotm@openstreetmap.org</a>.
 
@@ -80,17 +95,6 @@ Video recordings and slides of the lectures will be published under the Creative
 State of the Map is a non-commercial event where neither the organisers nor the speakers are being paid. Speakers have to buy a conference ticket just like everyone else. If necessary, we are able to provide limited support for travel costs. Our [call for scholars](https://blog.openstreetmap.org/2019/02/26/apply-for-scholarship-to-join-us-at-state-of-the-map-2019-in-heidelberg/) is open until 30 March 2019.
 
 If you need help applying for a visa, e.g. an official invitation to present to the German embassy, we can provide that. Please be aware that the visa application procedure may take several weeks or even months.
-
-<h2 id="timeline_deadlines">Timeline and Deadlines</h2>
-30 March 2019: Deadline call for scholarship<br>
-25 April 2019: Deadline non-academic talk submissions<br>
-10 May 2019: Deadline academic talk submissions<br>
-20 June 2019: Program announcement<br>
-21-23 September 2019: State of the Map<br>
-
-<h2 id="submit">Submit your presentation</h2>
-
-Please submit your presentation proposal to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
 
 <hr>
 
