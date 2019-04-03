@@ -590,10 +590,14 @@ nav .navbar-brand {
     -o-transition: all .2s;
     transition: all .2s;
     filter: grayscale(1);
+    display: inline-block;
 }
 
 #sponsors a.sponsor {
     text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
 }
 
 #sponsors a:hover img {
