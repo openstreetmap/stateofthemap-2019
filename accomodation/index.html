@@ -124,7 +124,7 @@ headings: "hotels,other-hotels"
           maxZoom: 18,
           accessToken: '{{ site.orsApiKey }}'
         }).addTo(map);
-        
+
         map.scrollWheelZoom.disable();
         L.marker([49.41854, 8.67345], {icon: L.icon({
           iconUrl: "{{ "/img/logo-footer.svg" | prepend: site.baseurl }}",
@@ -134,8 +134,8 @@ headings: "hotels,other-hotels"
 
         var hotelIcon = L.icon({
           iconUrl: "{{ "/img/hotel.png" | prepend: site.baseurl }}",
-              iconSize: [40, 40],
-              iconAnchor: [20, 20]
+          iconSize: [32, 32],
+          iconAnchor: [16, 16]
         });
 
         L.geoJSON(hotels, {
