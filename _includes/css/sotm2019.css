@@ -692,3 +692,9 @@ p img.bio-pic {
 .trackicon#track-academic:before {
   border-color: #dddddd;
 }
+
+/* maps */
+
+.map-icon {
+  filter: drop-shadow(0 0 2px white);
+}

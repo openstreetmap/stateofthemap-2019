@@ -129,13 +129,15 @@ headings: "hotels,other-hotels"
         L.marker([49.41854, 8.67345], {icon: L.icon({
           iconUrl: "{{ "/img/logo-footer.svg" | prepend: site.baseurl }}",
           iconSize: [40, 40],
-          iconAnchor: [20, 20]
+          iconAnchor: [20, 20],
+          className: 'map-icon'
         })}).bindPopup("<h3>Main Conference Venue</h3><p>“Hörsaalzentrum Chemie”<br>(Chemistry Lecture Halls Building),<br>Campus <em>Neuenheimer Feld</em>.</p>").addTo(map);
 
         var hotelIcon = L.icon({
           iconUrl: "{{ "/img/hotel.png" | prepend: site.baseurl }}",
           iconSize: [32, 32],
-          iconAnchor: [16, 16]
+          iconAnchor: [16, 16],
+          className: 'map-icon'
         });
 
         L.geoJSON(hotels, {
