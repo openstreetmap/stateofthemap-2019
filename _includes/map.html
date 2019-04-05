@@ -8,12 +8,20 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var map = L.map('map').setView([49.4108, 8.6845], 14);
+    var map = L.map('map').setView([49.412, 8.690], 14);
     L.tileLayer('https://api.openrouteservice.org/cmapsurfer/{z}/{x}/{y}.png?api_key={accessToken}', {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, Imagery © <a href="https://www.geog.uni-heidelberg.de/gis/index_en.html">GIScience Heidelberg</a> powered by <a href="http://mapsurfernet.com/">MapSurfer.NET</a>',
       maxZoom: 18,
       accessToken: '{{ site.orsApiKey }}'
     }).addTo(map);
+
+    L.marker([49.41854, 8.67345], {icon: L.icon({
+          iconUrl: "{{ "/img/logo-footer.svg" | prepend: site.baseurl }}",
+          iconSize: [40, 40],
+          iconAnchor: [20, 20],
+          className: "map-icon"
+        })}).bindPopup("<h3>Main Conference Venue</h3><p>“Hörsaalzentrum Chemie”<br>(Chemistry Lecture Halls Building),<br>Campus <em>Neuenheimer Feld</em>.</p>").addTo(map);
+
     map.scrollWheelZoom.disable();
   }, false);
 </script>
