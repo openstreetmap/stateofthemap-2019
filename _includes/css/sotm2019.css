@@ -616,6 +616,15 @@ nav .navbar-brand {
   font-size: 115%;
 }
 
+#sponsors div.platinum img {
+    filter: grayscale(0);
+}
+
+#sponsors div.platinum h4 {
+  font-size: 1em;
+  margin-top: 6px;
+}
+
 
 p img.bio-pic {
   height:160px;
