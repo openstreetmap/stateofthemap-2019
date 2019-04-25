@@ -201,7 +201,9 @@ a:focus {
         padding-bottom: 60px;
         margin-left: 8%;
         float: left;
-    }
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }    
 }
 
 .btn-circle {
