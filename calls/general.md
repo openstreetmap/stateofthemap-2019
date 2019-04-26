@@ -5,10 +5,6 @@ titlecontent: ""
 headings: "tracks,submission,rating,language,publication,travel_costs_visa,committee,timeline_deadlines,submit"
 ---
 
-<h2>tl;dr</h2>
-
-Please read our submission guidelines below and submit your presentation proposal before April&nbsp;25 to our **[submission form](https://pretalx.com/sotm2019/cfp)**.
-
 <h2 id="call">Call for Participation</h2>
 
 The State of the Map conference is the annual OpenStreetMap conference run by the OpenStreetMap Foundation. It is organised by the SotM Working Group, a team of volunteers. This year our host is the University of Heidelberg.
