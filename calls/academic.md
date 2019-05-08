@@ -7,7 +7,7 @@ headings: "intro,guidelines,timeline_deadlines,submit,committee,language,recordi
 
 <h2>tl;dr</h2>
 
-Please read our [submission guidelines](#guidelines) below and submit your presentation proposal before May&nbsp;10 to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
+Please read our [submission guidelines](#guidelines) below and submit your presentation proposal before May&nbsp;<del>10</del> 19 to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
 
 <h2 id="intro">Academic Track</h2>
 
@@ -26,7 +26,7 @@ This year's State of the Map conference will again feature a full day Academic T
 
 <h2 id="guidelines">Submission Guidelines</h2>
 
-Authors are invited to submit abstracts using the State of the Map&nbsp;<span class="numeral">2019</span> _Pretalx_ [submission system](https://pretalx.com/sotm2019-at/cfp). Deadline for submission is May&nbsp;<span class="numeral">10</span>, <span class="numeral">2019</span>.
+Authors are invited to submit abstracts using the State of the Map&nbsp;<span class="numeral">2019</span> _Pretalx_ [submission system](https://pretalx.com/sotm2019-at/cfp). <del>Deadline for submission is May&nbsp;<span class="numeral">10</span>, <span class="numeral">2019</span>.</del> <span style="font-weight: bold">Deadline extended to May&nbsp;<span class="numeral">19</span>, <span class="numeral">2019</span>.</span>
 
 Abstracts should include from a minimum of 500 to a maximum of 800 words.These limits will be strictly enforced for a fair and balanced review process.
 
@@ -42,7 +42,7 @@ The scientific committee will seek to further disseminate the contributions made
 
 30 March 2019: Deadline call for scholarship<br>
 25 April 2019: Deadline [non-academic talk submissions]({{site.baseurl}}/calls/general)<br>
-10 May 2019: Deadline academic talk submissions<br>
+<del>10</del> 19 May 2019: Deadline academic talk submissions<br>
 20 June 2019: Program announcement<br>
 21-23 September 2019: State of the Map<br>
 
