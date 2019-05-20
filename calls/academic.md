@@ -5,10 +5,6 @@ titlecontent: ""
 headings: "intro,guidelines,timeline_deadlines,submit,committee,language,recording,travel_costs_visa"
 ---
 
-<h2>tl;dr</h2>
-
-Please read our [submission guidelines](#guidelines) below and submit your presentation proposal before May&nbsp;<del>10</del> 19 to our **[submission form](https://pretalx.com/sotm2019-at/cfp)**.
-
 <h2 id="intro">Academic Track</h2>
 
 This year's State of the Map conference will again feature a full day Academic Track session. Following on from the great success of the inaugural Academic Track session at SotM&nbsp;<span class="numeral">2018</span>, this session will showcase both the ongoing innovation and maturity of scientific investigations and research into OpenStreetMap. Building upon the motto of SotM&nbsp;<span class="numeral">2019</span> in "Bridging the Map" the Academic Track session will provide the bridge to join together the experience, understanding, ideas, concepts and skills from different groups of researchers, academics and scientists from around the world. In particular, the Academic Track session will provide a bridge to connect members of the OpenStreetMap community and the academic community by providing a open passage for exchange of ideas, communication and opportunities for increased collaboration. We expect empirical, methodological, conceptual, or literature-review-based contributions addressing any scientific aspect related to OpenStreetMap, in particular, but not limited, to the following:
