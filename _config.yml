@@ -13,9 +13,12 @@ markdown: kramdown
 color:
   primary-dark: '#592123'
   primary-light: '#982d22'
-  links: '#f5f0e9'
-  text: '#f5f0e9'
-  background-light: '#f5f0e9'
+  links: '#592123'
+  links-light: '#982d22'
+  links-white: '#f5f0e9'
+  text: 'rgba(0, 0, 0, 0.75)'
+  background-light: 'rgba(0, 0, 0, 0.75)'
+  text-light: '#f5f0e9'
 
 orsApiKey: '5b3ce3597851110001cf62486f661bd027474c2c962acb276bce0da3'
 

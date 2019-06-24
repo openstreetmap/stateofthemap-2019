@@ -4,7 +4,6 @@ body {
     font-family: 'Barlow',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 17px;
     color: {{ site.color.text }};
-    background-color: {{ site.color.primary-dark }};
 }
 
 html {
@@ -14,6 +13,7 @@ html {
 
 .page {
   background-color: {{ site.color.primary-light }};
+  color: {{ site.color.links-white }};
 }
 
 h1,
@@ -63,8 +63,11 @@ div.affix {
     text-transform: uppercase;
 }
 
-nav a, .nav a {
+.navbar-custom.top-nav-collapse a {
     color: {{ site.color.links }};
+}
+
+nav a, .nav a {
     text-decoration: none;
     font-weight: 500;
 
@@ -74,15 +77,28 @@ nav a, .nav a {
 }
 
 a {
-  color: {{ site.color.links }};
+  color: {{ site.color.text }};
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
     text-decoration: underline;
+    color: {{ site.color.text }};
+    text-decoration-color: {{ site.color.text }};
+}
+
+footer a,
+.page a {
+  color: {{ site.color.links-white }};
+}
+
+footer a:hover,
+footer a:focus,
+.page a:hover,
+.page a:focus {
     color: white;
-    text-decoration-color: {{ site.color.links }};
+    text-decoration-color: {{ site.color.links-white }};
 }
 
 .navbar-custom {
@@ -153,7 +169,7 @@ a:focus {
     .navbar-custom.top-nav-collapse a, .stay-collapsed a {
         opacity: 1;
         width: auto;
-        color: {{ site.color.text }};
+        color: {{ site.color.text-light }};
     }
 }
 
@@ -213,7 +229,7 @@ a:focus {
     padding: 14px 13px;
     border-radius: 35px;
     font-size: 40px;
-    color: {{ site.color.background-light }};
+    color: {{ site.color.text-light }};
     background-color: {{ site.color.primary-dark }};
     -webkit-transition: background .3s ease-in-out, text .3s ease-in-out;
     -moz-transition: background .3s ease-in-out, text .3s ease-in-out;
@@ -364,29 +380,34 @@ ul.banner-social-buttons li {
 
 footer {
     padding: 50px 0;
+    color: {{ site.color.links-white }};
 }
 
 footer p {
     margin: 0;
 }
 
-::-moz-selection {
+footer ::selection,
+.page ::selection {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
 }
 
-::selection {
+footer ::-moz-selection,
+.page ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
 }
 
-img::selection {
+footer img::selection,
+.page img::selection {
     background: 0 0;
 }
 
-img::-moz-selection {
+footer img::-moz-selection,
+.page img::-moz-selection {
     background: 0 0;
 }
 
@@ -496,7 +517,7 @@ span.numeral {
 
 #newsletter .button {
     background-color: {{ site.color.primary-dark }};
-    color: {{ site.color.text }};
+    color: {{ site.color.links-white }};
     font-size: 17px;
     -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
     -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
@@ -568,7 +589,7 @@ nav .navbar-brand {
 }
 
 #toc li a:hover, #toc li a:focus {
-  background-color: rgba(255,255,255,.05);
+  background-color: rgba(0, 0, 0, .05);
 }
 
 #toc li.active a:after {
@@ -585,6 +606,18 @@ nav .navbar-brand {
 /* Sponsors
 ------------------------------------------------------- */
 
+#sponsors {
+    background-color: {{ site.color.primary-dark }};
+    color: {{ site.color.text-light }};
+}
+
+#sponsoring-interested {
+    padding-bottom: 80px;
+    @media only screen and (max-width: 767px) {
+        padding-bottom: 40px;
+    }
+}
+
 #sponsors a img {
     -webkit-transition: all .2s;
     -ms-transition: all .2s;
@@ -593,6 +626,10 @@ nav .navbar-brand {
     transition: all .2s;
     filter: grayscale(1);
     display: inline-block;
+}
+
+#sponsors a {
+    color: {{site.color.text-light }};
 }
 
 #sponsors a.sponsor {
@@ -708,4 +745,47 @@ p img.bio-pic {
 
 .map-icon {
   filter: drop-shadow(0 0 2px white);
+}
+
+/* schedule table */
+table.scheduleTable thead td {
+    border-style: none;
+    background-color: {{ site.color.primary-dark }};
+    color: {{ site.color.text-light }};
+}
+
+table.scheduleTable span.speaker,
+table.scheduleTable span.extraTag {
+    letter-spacing: 0;
+    display: block;
+}
+
+table.scheduleTable span.speaker {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+table.scheduleTable span.extraTag {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+td.scheduleBreak {
+    text-align: center;
+}
+
+/* no recording icons in schedule */
+img.noRecordingBright,
+img.noRecordingDark {
+    display: inline;
+}
+
+img.noRecordingBright {
+    margin-left: 10px;
+}
+
+img.noRecordingDark {
+    margin-right: 10px;
+    margin-bottom: 0px;
 }
