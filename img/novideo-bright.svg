@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com
+License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+-->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="24"
+   height="25"
+   id="svg2">
+  <path
+     d="m 22.822523,7.244468 0,9.512917 c 0,1.822061 -2.204242,2.718709 -3.481092,1.441954 l -4.675525,-4.673841 0,3.233663 c 0,1.126211 -0.912946,2.039163 -2.039154,2.039163 l -9.516053,0 c -1.1262078,0 -2.0391541,-0.912952 -2.0391541,-2.039163 l 0,-9.5160524 c 0,-1.1261841 0.9129463,-2.0391454 2.0391541,-2.0391454 l 9.516053,0 c 1.126208,0 2.039154,0.9129613 2.039154,2.0391454 l 0,3.2336914 4.675525,-4.6741771 c 1.275406,-1.2753235 3.481092,-0.3815756 3.481092,1.4418451 z"
+     style="fill:none;stroke:#ffffff;stroke-width:1.81258154;stroke-linecap:round" />
+  <path
+     style="stroke:#ffffff;stroke-width:2;stroke-linecap:round"
+     d="M 2.764884,1.202462 18.219269,23.90347" />
+  <path
+     d="M 2.764884,1.202462 18.219269,23.90347"
+     style="stroke:#ffffff;stroke-width:2;stroke-linecap:round" />
+</svg>

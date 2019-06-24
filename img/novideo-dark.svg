@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com
+License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+-->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="24"
+   height="25">
+  <path
+     d="m 21.942711,8.321457 0,8.609795 c 0,1.649082 -1.99498,2.460605 -3.15061,1.305061 l -4.231648,-4.230124 0,2.92667 c 0,1.019294 -0.826273,1.845573 -1.845564,1.845573 l -8.6126335,0 c -1.0192897,0 -1.8455641,-0.826279 -1.8455641,-1.845573 l 0,-8.6126324 c 0,-1.0192683 0.8262744,-1.8455563 1.8455641,-1.8455563 l 8.6126335,0 c 1.019291,0 1.845564,0.826288 1.845564,1.8455563 l 0,2.9266974 4.231648,-4.2304286 c 1.154324,-1.1542489 3.15061,-0.3453502 3.15061,1.3049616 z"
+     style="fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:1.64050162;stroke-linecap:round;stroke-opacity:1" />
+  <path
+     d="M 2.764884,1.202462 18.219269,23.90347"
+     style="stroke:#333;stroke-width:2;stroke-linecap:round;stroke-opacity:1;fill:none" />
+</svg>
