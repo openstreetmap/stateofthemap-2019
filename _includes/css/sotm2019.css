@@ -639,7 +639,7 @@ nav .navbar-brand {
     text-align: center;
 }
 
-#sponsors a:hover img {
+#sponsors a:hover {
     opacity: .7;
 }
 

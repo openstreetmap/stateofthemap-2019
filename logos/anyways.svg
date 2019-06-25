@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" width="24px" version="1.1" viewBox="0 0 24 24">
+  <title>Stockholm-icons / Code / Github</title>
+  <desc>Created with Sketch.</desc>
+  <g id="ANYWAYS Logo" fill="none" transform="rotate(180,12,12)">
+    <rect y="0" x="0" height="24" width="24"></rect>
+    <path class="primary" id="Combined-Shape" fill="#fff" d="m3.5 4c-0.2761 0-0.5 0.2239-0.5 0.5v5.293c0 0.1326 0.0527 0.26 0.1465 0.353 0.1952 0.196 0.5118 0.196 0.707 0l2.1895-2.189 3.6816 3.682a2.1523 2.1183 0 0 1 1.7794 -1.049l-4.047-4.047 1.6895-1.6895c0.0938-0.0938 0.1465-0.2209 0.1465-0.3535 0-0.2761-0.2239-0.5-0.5-0.5h-5.293zm9.5 10.293a2.1523 2.1183 0 0 1 -1.418 0.529 2.1523 2.1183 0 0 1 -0.582 -0.08v5.258c0 0.552 0.448 1 1 1s1-0.448 1-1v-5.707z" transform="rotate(180 12 12)"></path>
+    <path class="primary" opacity=".3" fill="#fff" d="m7.2448 17.145 2.0017 2.0017c0.093768 0.09377 0.14645 0.22094 0.14645 0.35355 0 0.27614-0.22386 0.5-0.5 0.5h-5.364c-0.27614 0-0.5-0.22386-0.5-0.5v-5.364c0-0.13261 0.052678-0.25978 0.14645-0.35355 0.19526-0.19526 0.51184-0.19526 0.70711 0l1.9432 1.9432 3.0284-2.5625 1.2919 1.5268z"></path>
+  </g>
+  <ellipse class="primary" rx="2.1523" ry="2.1183" stroke="#fff" cy="12.61" cx="11.72" stroke-width="1.4226" fill="none"></ellipse>
+</svg>
