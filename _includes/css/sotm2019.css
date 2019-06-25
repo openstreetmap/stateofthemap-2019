@@ -626,10 +626,15 @@ nav .navbar-brand {
     transition: all .2s;
     filter: grayscale(1);
     display: inline-block;
+    max-width: 100%;
 }
 
 #sponsors a {
     color: {{ site.color.links-white }};
+}
+
+#sponsors a:hover {
+    opacity: .7;
 }
 
 #sponsors a.sponsor {
@@ -637,10 +642,13 @@ nav .navbar-brand {
     display: inline-block;
     padding: 8px 16px;
     text-align: center;
+    width: 160px;
+    height: 70px;
 }
 
-#sponsors a:hover {
-    opacity: .7;
+#sponsors .supporter a.sponsor {
+    width: auto;
+    height: auto;
 }
 
 #sponsors .sponsors.platinum {
