@@ -608,7 +608,7 @@ nav .navbar-brand {
 
 #sponsors {
     background-color: {{ site.color.primary-dark }};
-    color: {{ site.color.text-light }};
+    color: {{ site.color.links-white }};
 }
 
 #sponsoring-interested {
@@ -629,7 +629,7 @@ nav .navbar-brand {
 }
 
 #sponsors a {
-    color: {{site.color.text-light }};
+    color: {{ site.color.links-white }};
 }
 
 #sponsors a.sponsor {
