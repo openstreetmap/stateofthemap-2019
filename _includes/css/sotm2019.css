@@ -798,3 +798,21 @@ img.noRecordingDark {
     margin-right: 10px;
     margin-bottom: 0px;
 }
+
+/* abstracts of sessions */
+.abstract-time {
+    font-size: 20px;
+}
+
+.abstract-speaker {
+    font-size: 18px;
+}
+
+.abstract-speaker,
+.abstract-no-recording {
+    font-style: italic;
+}
+
+.abstract-no-recording {
+    margin-left: 20px;
+}
