@@ -6,7 +6,6 @@ color: dark-nav
 <div class='keyline-top pad8y program-page'>
   <div class='limiter'>
     <div class='pad4y col12 clearfix prose min-height'>
-      <a href='/program/#session_{{page.code}}'>Back to schedule</a>
       <h1>{{page.title}}</h1>
 
       <section class='col3'>
@@ -15,6 +14,10 @@ color: dark-nav
         {% unless page.recording %}
           <p><span class='abstract-no-recording'><img src="/img/novideo-dark.svg" class="noRecordingDark" height="25" alt="no recording" title="This session will not be recorded."> This event will not be recorded.</span></p>
         {% endunless %}
+
+        <hr class="space-right4">
+
+        <a href='/program/#session_{{page.code}}'>Back to schedule</a>
       </section>
       <section class='col9'>
         <ul class='abstract-speaker'><li>{{page.speaker_names_with_affiliations | join: '</li><li>' }}</li></ul>
