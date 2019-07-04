@@ -801,8 +801,9 @@ img.noRecordingDark {
     margin-bottom: 0px;
 }
 
-/* abstracts of sessions */
-.abstract-time {
+/* sessions */
+.abstract-time,
+.abstract-room {
     font-size: 20px;
 }
 
@@ -815,6 +816,7 @@ img.noRecordingDark {
     font-style: italic;
 }
 
-.abstract-no-recording {
-    margin-left: 20px;
+.program-page ul.abstract-speaker {
+    list-style: none;
+    margin-left: 0;
 }
