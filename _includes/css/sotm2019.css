@@ -64,8 +64,8 @@ div.affix {
     text-transform: uppercase;
 }
 
-.navbar-custom.top-nav-collapse a {
-    color: {{ site.color.links }};
+.navbar, .navbar a, .navbar a:hover {
+    color: {{ site.color.text-light }};
 }
 
 nav a, .nav a {
@@ -131,7 +131,7 @@ footer a:focus,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus{
     outline: 0;
-    background-color: rgba(255,255,255,.05);
+    background-color: rgba(255,255,255,.15);
 }
 
 @media(min-width:767px) {
@@ -156,7 +156,7 @@ footer a:focus,
         border-bottom: 0.5px solid {{ site.color.primary-light }};
     }
 
-    .navbar a {
+    .navbar a, .navbar a:hover {
         color: {{ site.color.primary-light }};
     }
 
@@ -167,7 +167,8 @@ footer a:focus,
         overflow: hidden;
     }
 
-    .navbar-custom.top-nav-collapse a, .stay-collapsed a {
+    .navbar-custom.top-nav-collapse a, .stay-collapsed a,
+    .navbar-custom.top-nav-collapse a:hover, .stay-collapsed a:hover {
         opacity: 1;
         width: auto;
         color: {{ site.color.text-light }};
