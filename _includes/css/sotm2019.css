@@ -647,7 +647,8 @@ nav .navbar-brand {
     height: 70px;
 }
 
-#sponsors .supporter a.sponsor {
+#sponsors .supporter a.sponsor,
+#sponsors .platinum a.sponsor {
     width: auto;
     height: auto;
 }
