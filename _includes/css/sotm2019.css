@@ -103,6 +103,7 @@ footer a:focus,
 }
 
 .navbar-custom {
+    letter-spacing: 1px;
     margin-bottom: 0;
     border-bottom: 0.5px solid {{ site.color.primary-light }};
     background-color: {{ site.color.primary-dark }};
@@ -129,16 +130,20 @@ footer a:focus,
 }
 
 .navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus{
+.navbar-custom .nav li a:focus {
     outline: 0;
     background-color: rgba(255,255,255,.15);
+}
+
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.05);
 }
 
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
-        letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out, opacity 0.5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out, color 0.5s ease-in-out, opacity 0.5s ease-in-out;
