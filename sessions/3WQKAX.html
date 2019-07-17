@@ -1,0 +1,17 @@
+---
+layout: session
+academic: true
+title: "“Keepin' it fresh (and good)!” - Continuous Ingestion of OSM Data at Facebook"
+subtitle: ""
+code: "3WQKAX"
+speaker_names_with_affiliations: ['Saurav Mohapatra (Facebook)']
+extra_tags:
+room: "GHS"
+length: "00:20"
+time: "Saturday, 12:00"
+recording: True
+---
+<p>Building forward from our work on <strong>Mobius Logical Changesets</strong> (presented last year at SotM US 2018), we have created an <strong>automated ingestion and integrity framework</strong> for OSM data that allows us to <strong>selectively</strong> update parts of the map instead of doing a full snapshot change all at once. </p>
+<p>Decomposing a large set of changes in this way gives us the flexibility to <strong>rapidly ingest</strong> our own additions to the map, focus on <strong>geographical areas of importance</strong> to downstream products, and allows us to <strong>quickly apply hotfixes</strong> whenever egregious problems do arise. </p>
+<p>With millions of tiny changes happening every week, we have created a system that is built on <strong>per-feature approval and preprocessing</strong>, that allows us to ingest changes at scale, while creating rules to <strong>automatically process logical changesets and enforce integrity constraints (e.g. anti-vandalism, anti-profanity etc.).</strong> </p>
+<p>Due to the contextual nature of some of the changes in OpenStreetMap, the system combines Human Approval, necessary for highly visible features such as names of large administrative areas, with <strong>Automated AI/ML-based approval</strong>: for example, using <strong>computer vision techniques</strong> to reconcile newly created features against <strong>satellite imagery ground truth</strong>, or applying <strong>NLP techniques</strong> to determine whether other user-visible string changes are sensible and valid. These components are combined to create a <strong>continuous ingest-validate-deploy cycle</strong> for OSM map data.</p>

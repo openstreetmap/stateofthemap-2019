@@ -1,0 +1,18 @@
+---
+layout: session
+academic: true
+title: "OSM Vector Tiles in custom coordinate systems"
+subtitle: ""
+code: "RYPLFZ"
+speaker_names_with_affiliations: ['Jiri Komarek (MapTiler)']
+extra_tags:
+room: "HSO"
+length: "00:20"
+time: "Monday, 15:00"
+recording: True
+---
+<p>OpenMapTiles is an open-source set of tools for processing OpenStreetMap data into zoomable and web-compatible vector tiles, which are ready to use in OpenLayers, Mapbox GL, Leaflet, QGIS as well as mobile applications. </p>
+<p>This talk gives an overview of the OpenMapTiles tools to produce vector tiles in coordinate systems other than Mercator while keeping all the features, such as interactivity to create powerful region-specific applications.</p>
+<p>Today’s de-facto global standard is a Spherical Mercator projection because it preserves shape and angles. The entire world looks like a square, which makes it easy to work with on a computer. However, such a transformation causes several issues like distortion of sizes where places around the equator are visually smaller than those near poles. That’s why new global coordinate systems were developed.</p>
+<p>There are also many local coordinate systems with a long tradition. They perfectly fit the need to display a particular country/area in the most acceptable way. They are heavily used, especially by governments. OpenMapTiles can serve as a base map for displaying data in a different coordinate system or for view/print purposes.</p>
+<p>There is also a hosting service based on OpenMapTiles called MapTiler Cloud, which offers the same ability to be displayed in a different coordinate system than Mercator.</p>

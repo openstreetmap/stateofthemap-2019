@@ -1,0 +1,16 @@
+---
+layout: session
+academic: true
+title: "OSM Quality Mapping : Metrics to monitor Buildings outbounds"
+subtitle: "How can we better monitor and correct Quality problems"
+code: "3BZCXA"
+speaker_names_with_affiliations: ['Pierre Béland']
+extra_tags:
+room: "HSO"
+length: "00:20"
+time: "Sunday, 12:00"
+recording: True
+---
+<p>Mapathons and Building import projects represent major OSM Quality problems to monitor. Potentiel 3.0 and OSM-RDC started a project in 2018 to monitor Data quality problems. We  present the work done with metrics to monitor quality problems among various Projects (see <a href="https://opendatalabrdc.github.io/Blog/#!index_en.md">OpenDataLabRDC Blog Articles about Building Quality</a> ).  Individual building geometries are evaluated and classified (ie. orthogonal, quasi-orthogonal or irregular).  Topological errors are detected (ie. incomplete polygon, self-crossing, overlaps).  Geojson visualisations and Statistics let evaluate a project.  Output of List of osm_id's for various problems (ie. topological error, irregular building) let's import simply into JOSM with Overpass queries.</p>
+<p>Current development is to go a step further and correct buildings quasi-orthogonal angles in an OSM file taking into account neighbor buildings to avoid distorsions with blocks of buildings aligned on a street (See <a href="https://github.com/pierzen/OQ_Analysis">OQ_Analysis</a>). </p>
+<p>Programming is based on the Osmosis schema, Python and PostgreSQL-PostGIS.  OSM files to analyse can be imported from various sources (ie. Geofabrik, Overpass, osm export). Each OSM file (specific date-Zone) is converted to PosGIS and stored in a specific  PostgreSQL schema via Osmosis.  The topological analysis and geometry measures are made with PostGIS functions.</p>

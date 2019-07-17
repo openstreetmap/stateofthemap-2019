@@ -1,0 +1,17 @@
+---
+layout: session
+academic: true
+title: "Flexible Routing with GraphHopper"
+subtitle: "And how it can be misused for data analysis"
+code: "P8AG7K"
+speaker_names_with_affiliations: ['Peter Karich (GraphHopper GmbH)']
+extra_tags:
+room: "GHS"
+length: "00:20"
+time: "Sunday, 09:30"
+recording: True
+---
+<p>In its first version 0.1 the open source GraphHopper routing engine was able to store just the distance and the car speed and access for every road. Since then many things have changed and improved in version 0.12 and beyond more data can be stored even without knowing Java or GraphHopper internals, but still the storage of those properties is done efficiently.</p>
+<p>A world wide graph with some basic useful road properties like highway, toll, tunnel, bridge, ferry, width, height, surface, maxspeed and access fits into a routable graph of under 25GB, i.e. just 60% of the planet PBF. GraphHopper allows you to keep this either in memory if you need high speed or serve the graph from the hard drive (incl. cache) to keep the costs low or use your development laptop.</p>
+<p>Developers and data analysts are enabled to store more features while preserving fast data access.  The advantage of the graph-based storage of GraphHopper over a usual database is that the road connectivity can be directly exploited. </p>
+<p>This is a work in progress and we'll show what is already possible to provide a more flexible routing, data analysis and in-browser visualization with Leaflet. E.g. for routing purposes so called "what if" scenarios can be done to show the impact of a bridge construction via isochrones or reachable areas and also potential problems for HGV vehicles can be outlined.</p>

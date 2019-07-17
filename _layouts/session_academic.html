@@ -1,0 +1,36 @@
+---
+layout: default
+color: no-logo program-page
+color: dark-nav
+---
+<div class='keyline-top pad8y program-page'>
+  <div class='limiter'>
+    <div class='pad4y col12 clearfix prose min-height'>
+      <h1>{{page.title}}</h1>
+      {% if page.subtitle %}<h2 class="abstract-subtitle">{{page.subtitle}}</h2>{% endif %}
+
+      <section class='col3'>
+        <p><span class='abstract-room'>Room: {{page.room}}</span></p>
+        <p><span class='abstract-time'>{{page.time}}</span></p>
+        {% unless page.recording %}
+          <p><span class='abstract-no-recording'><img src="/img/novideo-dark.svg" class="noRecordingDark" height="25" alt="no recording" title="This session will not be recorded."> This event will not be recorded.</span></p>
+        {% endunless %}
+
+        <hr class="space-right4">
+
+        <a href='/program/#session_{{page.code}}'>Back to schedule</a>
+      </section>
+      <section class='col9'>
+          <ul class='abstract-speaker'>
+              {% for sp in page.speaker_names_with_affiliations %}
+                  {% assign speaker_parts = sp | split: ";" %}
+                  <li>{{ speaker_parts[0] }}, {{ speaker_parts[1] }}</li>
+              {% endfor %}
+          </ul>
+
+        {{content}}
+
+      </section>
+    </div>
+  </div>
+</div>

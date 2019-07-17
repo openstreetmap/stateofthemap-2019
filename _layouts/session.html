@@ -7,6 +7,7 @@ color: dark-nav
   <div class='limiter'>
     <div class='pad4y col12 clearfix prose min-height'>
       <h1>{{page.title}}</h1>
+      {% if page.subtitle %}<h2 class="abstract-subtitle">{{page.subtitle}}</h2>{% endif %}
 
       <section class='col3'>
         <p><span class='abstract-room'>Room: {{page.room}}</span></p>

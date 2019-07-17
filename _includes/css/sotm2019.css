@@ -807,6 +807,11 @@ img.noRecordingDark {
 }
 
 /* sessions */
+h2.abstract-subtitle {
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
 .abstract-time,
 .abstract-room {
     font-size: 20px;

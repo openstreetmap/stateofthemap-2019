@@ -1,0 +1,17 @@
+---
+layout: session
+academic: true
+title: "Broken Promises and Technical Difficulties"
+subtitle: "Oh no, not that API 0.7 talk again"
+code: "V7NUWP"
+speaker_names_with_affiliations: ['Ilya Zverev (Juno Lab)']
+extra_tags:
+room: "GHS"
+length: "00:20"
+time: "Sunday, 17:30"
+recording: True
+---
+<p>People often come to me saying, changesets with huge bounding boxes are impossible to validate. Come on. You know changesets were not meant to group edits by any criteria. Developers look at the data model and derive user experience from it — and it obviously does not work. Every instance of OSM data needs to be preprocessed, converted, filtered, layered, postprocessed and thrown away. We need to stop looking at OSM as a database and start treating it like a map.</p>
+<p>In this talk I will highlight what's wrong with the current state of API, including both the actual REST API and the server side. Things like topology, notes, GPX traces and stuff: they were coded when the project was small, but the model starts to show its age — and few people know what to do, besides adding more mappers. How come Overpass API became the better API, and what can we learn from it?</p>
+<p>Changesets should be abandoned by user-facing tools: let's imagine how the mapping, the validation, the undoing of changes would work if we didn't rely on changesets or actually anything API provides. Can we do something to improve data quality right now? Or can we work towards API 0.7, that would help keep the map not only the most complete, but also the most recent? Let's take a step back and imagine how OpenStreetMap should have been working, to make it more fun to work with, while keeping its versatility and simplicity.</p>
+<p>I have been involved in a couple API 0.7 discussions, made a few tagging proposals and wrote an editor and a change rollback script. That doesn't make me an expert — there are no experts in OpenStreetMap — but it gave me some ideas on how things could be better. Maybe together we will have a clearer path towards the better OpenStreetMap.</p>
