@@ -1,0 +1,22 @@
+---
+layout: session
+academic: true
+title: "Bringing Validation to Users: Integrating Quality Assurance Checks into Map Editors"
+subtitle: ""
+code: "9SSZQH"
+speaker_names_with_affiliations: ['David Manzer', 'Matthew Gibb (Radiant Solutions)', 'Clarisse Abalos (Radiant Solutions)']
+extra_tags:
+room: "HSO"
+length: "00:20"
+time: "Sunday, 12:30"
+recording: True
+---
+<p>There is a need for validation in crowdsourced mapping to ensure that the quality of created data meets the community’s agreed upon standards and best practices. The OpenStreetMap community has created many Quality Control (QC) tools (Osmose, KeepRight, OSMLint, etc.) to identify existing errors within OpenStreetMap data, but there has not been as much emphasis on Quality Assurance (QA) tools to prevent issues from being created during the editing process.  We are developing methods to introduce these data quality checks in both the iD and JOSM editors to educate mappers and provide immediate feedback while they are mapping. </p>
+<p>In order to introduce these new tools, we first need to recognize the methods a user typically uses to learn how to contribute to the map properly:<br />
+- Peruse the many pages on OSM Wiki; 
+- Reach out to community members on mailing lists, forums, or Slack groups; or,<br />
+- Follow detailed instructions and receive feedback (sometimes untimely) on tasks completed in a focused project (via Tasking Manager or MapRoulette) </p>
+<p>This process is accepted and works for those who are resourceful and careful, but we wanted to reduce the barrier to entry for new mappers by creating MapRules.  MapRules is an interface to create instructions which generate custom presets and validation rules that are then integrated into the existing validation frameworks in JOSM and iD.  Contributors are directed on how to map features according to the generated rules and are provided instant feedback if their changeset does not meet the set specification.   </p>
+<p>In addition to using MapRules to create specifications for collecting features, we are creating validation checks specifically for JOSM using MapCSS based on rules found in QC tools like Osmose, KeepRight, and OSMLint.  This approach follows the paradigm of checking data before it is committed to the map. </p>
+<p>This approach is truly for all contributors and users of OSM.  It clearly shows its worth to the mappers who are creating new edits, but it also aids validators to quickly identify problems where they may have had to visually and manually inspect each feature or rely on numerous QC tools outside of the editing environment. To further assist in validation and clean up, we have created a series of corresponding Overpass queries that download only the features with identified data issues. Within JOSM, these issues can potentially be resolved by applying automatic fixes on a feature or in bulk. </p>
+<p>By bringing more validation into the regular mapping workflow, we can help create a better map.</p>

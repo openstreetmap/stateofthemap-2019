@@ -1,0 +1,26 @@
+---
+layout: session
+academic: true
+title: "Is the OSM data model creaking?"
+subtitle: "At its root, OSM tries to represent spaces as flows (lines). This results in fundamental compromises and inaccuracies. What is good for routing is not always good for cartography, and vice-versa."
+code: "DW7WW8"
+speaker_names_with_affiliations: ['Martin Lucas-Smith, CycleStreets (CycleStreets)']
+extra_tags:
+room: "GHS"
+length: "00:20"
+time: "Sunday, 17:00"
+recording: True
+---
+<p>OpenStreetMap was designed to enable ordinary people to create open geodata that anyone can use and maintain easily. Traditional GIS concepts such as layers are dispensed with in order to make editing simple and accessible. In the same way that the web would never have taken off if HTML were not so accessible and tolerant of mistakes, this simplicity in OSM has meant a low barrier to involvement.</p>
+<p>However, as OSM is becoming more widely used in the mainstream, the need for accuracy and quality is becoming more and more important. Cyclists need detailed turn data to enable high-quality routing that takes full account of safety. Satnav companies, need lane data, which is difficult to represent accurately. Pedestrian routing is barely in its infancy and high quality routing for people walking or using wheelchairs is hard to achieve.</p>
+<p>At its root, OSM tries to represent spaces as flows (lines). This results in fundamental compromises and inaccuracies. What is good for routing is not always good for cartography, and vice-versa.</p>
+<p>For instance, a street containing cycleways with pavements either side is usually represented as a single line with attributes. However, it is extremely challenging to represent properly all the parts of the street, and in general people simply don't bother: a single line with large numbers of attributes is unwieldy to edit (even when hidden by editor GUIs), and just as challenging for a router to interpret. Continual changes in the width of a street cannot be easily represented without segmenting the street heavily and creating a mess. Temporary disappearance of lanes makes editing complex. Routing ultimately ends up as a lowest common denominator result.</p>
+<p>The alternative method of representing this same street is as a series of individual lines. But this is equally problematic. In this model, the street loses its coherence as a single entity - humans think of it as a street with multiple uses (walking, cycling, driving, trees). Where people have done this, attributes such as street names need to be kept in sync, and in practice separate pavements often fail to have names attached. Concepts such as the ability to cross from one side of the road to the other (or even switch lanes) are not modelled, with the result that a router may take the user to the end of the street then back down. And cartography ends up showing a series of parallel lines which looks messy and does not match the human perception of a street.</p>
+<p>The bicycle tagging page on OSM provides a perfect demonstration of the current problem:
+https://wiki.openstreetmap.org/wiki/Bicycle
+It shows the complexity of representing many common scenarios, with increasingly incomprehensible tagging combinations. No router implements anything like all of this, and even expert OSM contributors would shy away at bothering to add this data.</p>
+<p>Cycleways indeed are a good general example of inconsistent tagging. Cycleways separate to a road are sometimes tagged as an attribute of the street and sometimes as a separate geometry. What about a hybrid/stepped cycle lane of the kind seen in Copenhagen - is that a cycle lane or a cycleway? Do lane counts include cycle lanes or not? How is obstructive car parking represented? Is the one-way indication applicable to the cycle lane on the road? And so on.</p>
+<p>Another example is junctions. Should traffic signals be treated spatially (i.e. represent the location of the traffic heads), or should they be treated linearly so that routing works properly? How should the linear model work accurately when there is only a single geometry for multiple directions? Have a look at the roads around the Arc De Triomphe in Paris - it is completely impossible for a routing engine to work out exactly how many signal delays should actually be attributed based on the presence of the marking of traffic signals in the data:
+https://www.openstreetmap.org/#map=17/48.87391/2.29536</p>
+<p>This talk will discuss these cases, and provide a starting point for discussion on what should be done to improve the situation. As people are ever keener to add more detail to the map, and as more and more mainstream users look to OSM, we have to ask whether the current model is arguably creaking too heavily. Is there a way that we can represent spaces as a set of interconnected flows in some way?</p>
+<p>The speaker, Martin Lucas-Smith, is one of the developers of CycleStreets, one of the earliest and most established dedicated cycle routing engines. As such, he has spent many years considering the kinds of tradeoffs represented by the current OSM data model.</p>
