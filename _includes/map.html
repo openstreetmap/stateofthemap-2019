@@ -9,10 +9,9 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var map = L.map('map').setView([49.412, 8.690], 14);
-    L.tileLayer('https://api.openrouteservice.org/cmapsurfer/{z}/{x}/{y}.png?api_key={accessToken}', {
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, Imagery © <a href="https://www.geog.uni-heidelberg.de/gis/index_en.html">GIScience Heidelberg</a> powered by <a href="http://mapsurfernet.com/">MapSurfer.NET</a>',
-      maxZoom: 18,
-      accessToken: '{{ site.orsApiKey }}'
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, map tiles © <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a>',
+      maxZoom: 19
     }).addTo(map);
 
     L.marker([49.41854, 8.67345], {icon: L.icon({
