@@ -213,6 +213,14 @@ footer a:focus,
     width: 300px;
 }
 
+.intro .credits {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 12px;
+    filter: drop-shadow(0 0 1.1px black);
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
