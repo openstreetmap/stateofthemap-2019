@@ -559,16 +559,15 @@ input#mce-EMAIL::selection {
 
 
 #footer {
-    line-height: 35px;
+    font-size: 15px;
+    line-height: 1.75em;
     background-color: {{ site.color.primary-dark }};
 }
 
 #footer a {
-    font-size: 19px;
 }
 
 #footer a.light {
-    font-size: 100%;
     font-weight: normal;
 }
 
