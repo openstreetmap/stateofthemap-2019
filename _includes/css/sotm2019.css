@@ -213,12 +213,17 @@ footer a:focus,
     width: 300px;
 }
 
-.intro .credits {
+.credits {
+    color: white;
     position: absolute;
     bottom: 10px;
     right: 30px;
     font-size: 12px;
     filter: drop-shadow(0 0 1.1px black);
+}
+
+div.img-with-credits {
+    position: relative;
 }
 
 @media(min-width:767px) {
