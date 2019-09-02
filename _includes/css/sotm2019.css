@@ -226,6 +226,20 @@ div.img-with-credits {
     position: relative;
 }
 
+header.intro .credits {
+    position: fixed;
+}
+
+@media(max-width:766px) {
+    header.intro {
+        background-attachment: local;
+        position: relative;
+    }
+    header.intro .credits {
+        position: absolute;
+    }
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
