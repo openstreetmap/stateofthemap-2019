@@ -1,6 +1,6 @@
 ---
 layout: program
-title: Tickets
+title: We are sold out
 titlecontent: ""
 ---
 
@@ -15,7 +15,8 @@ State of the Map is not the only annual conference about OpenStreetMap. The next
 * [State of the Map Southeast Europe](https://sotmsee.org/), an English speaking OpenStreetMap and GIS conference, 25–27 October 2019, Prizren, Kosovo, [call for papers](https://docs.google.com/forms/d/e/1FAIpQLSctPlHibg6lZ-pmHmFqmypPmBT1coO1W1x1Ej1QuxRw0Gr-gA/viewform)
 * [State of the Map Africa](https://2019.stateofthemap.africa/), the bi-annual African OpenStreetMap conference, 22–24 November 2019, Grand-Bassam, Ivory Coast
 * [FOSSGIS-Konferenz 2020](https://fossgis-konferenz.de/2020/), the German speaking OpenStreetMap conference, 11–14 March 2020, Freiburg im Breisgau, Germany
-* [State of the Map France](https://wiki.openstreetmap.org/wiki/State_of_the_Map_France), the annual French speaking conference, usually in late spring or early summer
+* [State of the Map France](https://wiki.openstreetmap.org/wiki/State_of_the_Map_France), the annual French speaking conference, next year in Nantes, usually in late spring or early summer
+* State of the Map US, annual OpenStreetMap conference in the US, usually in autumn, date and time to be announced
 * State of the Map 2020, date and location to be announced on 23 September 2019
 
 Please get in touch with the organisers of the events mentioned at their websites. Local State of the Map conferences are organised by local groups, not the OpenStreetMap Foundation.
