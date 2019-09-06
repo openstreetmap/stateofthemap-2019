@@ -8,7 +8,7 @@ titlecontent: ""
 
 We are sorry to announce that this year's State of the Map conference is sold out since 6 September 2019. We have sold 570 tickets and reached a couple of limits. Our waiting list is long. Unfortunately, exceptions are not possible.
 
-Most talks (see the schedule) are recorded on video. You can find the livestream and the recorded videos at [https://media.ccc.de/](https://media.ccc.de/)
+Most talks (see the schedule) will be recorded on video. You can find the livestream and the recorded videos at [https://media.ccc.de/](https://media.ccc.de/)
 
 State of the Map is not the only annual conference about OpenStreetMap. The next events are just a few months ahead.
 
@@ -20,4 +20,4 @@ State of the Map is not the only annual conference about OpenStreetMap. The next
 
 Please get in touch with the organisers of the events mentioned at their websites. Local State of the Map conferences are organised by local groups, not the OpenStreetMap Foundation.
 
-You can find the original ticket page [here](https://join.osmfoundation.org/?page=CiviCRM&q=civicrm%2Fevent%2Finfo&reset=1&id=13). Tickets costed EUR 120 for community members (EUR 75 during early-bird phase), EUR 280 for everyone else (EUR 180 during early-bird phase) and EUR 700 for supporters.
+You can find the original ticket page [here](https://join.osmfoundation.org/?page=CiviCRM&q=civicrm%2Fevent%2Finfo&reset=1&id=13). Tickets costed EUR 280 (EUR 180 during early-bird phase), EUR 120 for active members of the community (EUR 75 during early-bird phase) and EUR 700 for supporters.
