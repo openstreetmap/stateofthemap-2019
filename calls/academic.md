@@ -2,7 +2,7 @@
 layout: page-with-toc
 title: "Call for Abstracts: Academic Track"
 titlecontent: ""
-headings: "intro,guidelines,timeline_deadlines,submit,committee,language,recording,travel_costs_visa"
+headings: "intro,guidelines,timeline_deadlines,submit,committee,language,recording,travel_costs_visa,proceedings"
 ---
 
 <h2 id="intro">Academic Track</h2>
@@ -95,3 +95,9 @@ If you need help applying for a visa, e.g. an official invitation to present to 
 <hr>
 
 _The SotM 2019 Scientific Committee, 15 March 2019_
+
+<hr>
+
+<h2 id="proceedings">Proceedings</h2>
+
+The full and individual talks' proceedings of this track are published in digital form. Head over to the <a href="../../academic_proceedings">proceedings page</a> for more information.
