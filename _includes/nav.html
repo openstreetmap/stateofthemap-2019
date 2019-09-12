@@ -42,12 +42,15 @@
                     <!--<li>
                         <a class="{% if page.url contains '/accommodation' %}active{% endif %}" href="{{site.baseurl}}/accommodation/">Accommodation</a>
                     </li>-->
-                    <li>
+                    <!--<li>
                       {% if page.role == 'index' %}
                         <a class="page-scroll" href="#newsletter">Newsletter</a>
                       {% else %}
                         <a class="" href="{{site.baseurl}}/#newsletter">Newsletter</a>
                       {% endif %}
+                    </li>-->
+                    <li>
+                        <a class="{% if page.url contains '/attending' %}active{% endif %}" href="{{site.baseurl}}/attending/">Attending</a>
                     </li>
                     <!--<li>
                         <a class="{% if page.url contains '/codeofconduct' %}active{% endif %}" href="{{site.baseurl}}/codeofconduct">Code of conduct</a>
