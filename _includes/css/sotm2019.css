@@ -856,3 +856,14 @@ h2.abstract-subtitle {
     list-style: none;
     margin-left: 0;
 }
+
+/* Attending
+--------------------------------------*/
+.translation-table span {
+    padding-bottom: 10px;
+}
+
+.translation-table .section-head {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
