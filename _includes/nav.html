@@ -28,6 +28,13 @@
                         <a class="{% if page.url contains '/tickets' %}active{% endif %}" href="{{site.baseurl}}/tickets/"><s>Tickets</s></a>
                     </li>
                     <li>
+                      {% if page.role == 'index' %}
+                        <a class="page-scroll" href="#streaming">Live</a>
+                      {% else %}
+                        <a class="" href="{{site.baseurl}}/#streaming">Live</a>
+                      {% endif %}
+                    </li>
+                    <li>
                         <a class="{% if page.url contains '/program' %}active{% endif %}" href="{{site.baseurl}}/program/">Programme</a>
                     </li>
                     <li>
