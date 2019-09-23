@@ -8,7 +8,7 @@ titlecontent: ""
 
 We are sorry to announce that this year's State of the Map conference is sold out since 6 September 2019. We have sold 570 tickets and reached a couple of limits. Our waiting list is long. Unfortunately, exceptions are not possible.
 
-Most talks (see the schedule) will be recorded on video. You can find the livestream and the recorded videos at [https://media.ccc.de/](https://media.ccc.de/)
+Most talks (see the schedule) will be recorded on video. You can find the recorded videos at [https://media.ccc.de/c/sotm2019](https://media.ccc.de/c/sotm2019).
 
 State of the Map is not the only annual conference about OpenStreetMap. The next events are just a few months ahead.
 
