@@ -8,6 +8,7 @@ extra_tags:
 room: "Hörsaal Ost"
 length: "00:20"
 time: "Sunday, 14:00"
+resources: [{ description: "slides", url: "/attachments/CAD93S_Kunde_spatial_indexes_for_osm_in_postgis.pdf" }]
 recording: True
 ---
 <p>When working with OpenStreetMap data in a database you learn pretty soon that you need to index the columns (and rows) which you use for filtering in order to have fast running queries. PostgreSQL offers a variety of these <a href="https://youtu.be/W6B8-srOsrs">table access methods</a> but when it comes to its spatial extension PostGIS, developers could only use one for the geometry fields for years: The GiST index - an implementation of the <a href="https://en.wikipedia.org/wiki/R-tree">R-tree</a> search tree concept. But during the last releases new methods were made available, namely BRIN and sp-GiST. Not many resources are yet available to figure out which index strategy to apply for which data processing or analytical workflows. Therefore, I created a simple <a href="https://github.com/FxKu/postgis_indexing">benchmark</a> to find it out. So far, only for artifical data, but for this years StoM it is planned to extend the experiments to OSM datasets.</p>
