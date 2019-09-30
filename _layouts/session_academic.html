@@ -18,9 +18,10 @@ color: dark-nav
 
         <hr class="space-right4">
 
-        {% for r in page.resources %}
-        <p><span class='abstract-doi'><a href="{{r.url}}">{{r.description}}</a>{% if r.description == 'full abstract' %} (<a href="https://doi.org/{{page.doi}}">DOI</a>){% endif %}</p>
-        {% endfor %}
+        <p><span class='abstract-doi'><a href="https://doi.org/{{page.doi}}">full abstract - pdf</a></span></p>
+        {% for r in page.resources %}{% if r.description != 'full abstract' %}
+        <p><span class='abstract-doi'><a href="{{r.url}}">{{r.description}}</a></p>
+        {% endif %}{% endfor %}
 
         <hr class="space-right4">
 
