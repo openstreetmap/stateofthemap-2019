@@ -27,6 +27,12 @@ map_tiles:
   maxZoom: 18,
   accessToken: '5b3ce3597851110001cf62486f661bd027474c2c962acb276bce0da3'
 
+# Repo files to not include in built site
+exclude:
+  - Dockerfile*
+  - docker-compose.*
+  - Gemfile
+
 permalink: /:title/
 relative_permalinks: false
 defaults:
