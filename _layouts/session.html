@@ -18,6 +18,12 @@ color: dark-nav
 
         <hr class="space-right4">
 
+        {% for r in page.resources %}
+        <p><span class='abstract-doi'><a href="{{r.url}}">{{r.description}}</a>{% if r.description == 'full abstract' %} (<a href="https://doi.org/{{page.doi}}">DOI</a>){% endif %}</p>
+        {% endfor %}
+
+        <hr class="space-right4">
+
         <a href='/program/#session_{{page.code}}'>Back to schedule</a>
       </section>
       <section class='col9'>
