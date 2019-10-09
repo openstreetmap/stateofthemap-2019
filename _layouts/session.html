@@ -22,7 +22,9 @@ color: dark-nav
         <p><span class='abstract-doi'><a href="{{r.url}}">{{r.description}}</a>{% if r.description == 'full abstract' %} (<a href="https://doi.org/{{page.doi}}">DOI</a>){% endif %}</p>
         {% endfor %}
 
+        {% if page.resources[0] %}
         <hr class="space-right4">
+        {% endif %}
 
         <a href='/program/#session_{{page.code}}'>Back to schedule</a>
       </section>
