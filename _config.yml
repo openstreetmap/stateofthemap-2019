@@ -20,7 +20,12 @@ color:
   background-light: '#fefef6'
   text-light: '#f5f0e9'
 
-orsApiKey: '5b3ce3597851110001cf62486f661bd027474c2c962acb276bce0da3'
+# Settings for map tiles used in leaflet maps
+map_tiles:
+  url: 'https://api.openrouteservice.org/cmapsurfer/{z}/{x}/{y}.png?api_key={accessToken}'
+  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, Imagery © <a href="https://www.geog.uni-heidelberg.de/gis/index_en.html">GIScience Heidelberg</a>'
+  maxZoom: 18,
+  accessToken: '5b3ce3597851110001cf62486f661bd027474c2c962acb276bce0da3'
 
 permalink: /:title/
 relative_permalinks: false
