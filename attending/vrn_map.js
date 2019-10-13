@@ -38,7 +38,7 @@ function load_map() {
       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, map tiles © <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a>',
       maxZoom: 19
     }).addTo(map);
-  
+
     L.geoJSON(vrnGeoJSON, {
         style: function(feature) {
             if (feature.properties.vrn_type === "vrn_core") {
@@ -54,7 +54,7 @@ function load_map() {
     }).bindPopup(function(layer) {
         return layer.feature.properties.label;
     }).addTo(map);
-  
+
     map.scrollWheelZoom.disable();
 }
 
