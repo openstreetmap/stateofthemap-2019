@@ -12,8 +12,8 @@ color: dark-nav
       <section class='col3'>
         <p><span class='abstract-room'>Room: {{page.room}}</span></p>
         <p><span class='abstract-time'>{{page.time}}</span></p>
-        {% unless page.recording %}
-          <p><span class='abstract-no-recording'><img src="/img/novideo-dark.svg" class="noRecordingDark" height="25" alt="no recording" title="This session will not be recorded."> This event will not be recorded.</span></p>
+        {% unless page.recording or page.recordings %}
+          <p><span class='abstract-no-recording'><img src="/img/novideo-dark.svg" class="noRecordingDark" height="25" alt="no recording" title="This session was not recorded."> This event was not recorded.</span></p>
         {% endunless %}
 
         <hr class="space-right4">
@@ -25,7 +25,7 @@ color: dark-nav
 
         <hr class="space-right4">
 
-        <a href='/program/#session_{{page.code}}'>Back to schedule</a>
+        <a href='/academic_programme/#session_{{page.code}}'>Back to schedule</a>
       </section>
       <section class='col9'>
           <ul class='abstract-speaker'>
@@ -36,6 +36,14 @@ color: dark-nav
           </ul>
 
         {{content}}
+
+        {% if page.recordings %}
+        <video controls width="100%" poster="/img/video-posters/video-{{ page.code }}.jpeg">
+        {% for rec in page.recordings %}
+          <source src="{{ rec.recording_url }}" type="{{ rec.mime_type }}">
+        {% endfor %}
+        </video>
+        {% endif %}
 
       </section>
     </div>
