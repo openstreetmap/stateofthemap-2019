@@ -40,6 +40,10 @@ color: dark-nav
         {% endfor %}
         </video>
         {% endif %}
+        <p>
+        {% if page.voc %}<a href="{{ page.voc }}">This recording on media.ccc.de</a><br>{% endif %}
+        {% if page.youtube %}<a href="https://www.youtube.com/watch?v={{ page.youtube }}">This recording on YouTube</a>{% endif %}
+        </p>
 
       </section>
     </div>
