@@ -26,3 +26,9 @@ Alternatively you can use Docker to install Jekyll and to serve the site within 
 * Point your browser to `http://localhost:4000/`
 
 Alternatively if you are using docker-machine, replace localhost with the IP address from `docker-machine ip`
+
+## Contributing
+
+### Code Style
+
+Please adhere to the code style rules in the supplied `.editorconfig` file. Instructions for [editors/IDEs](https://editorconfig.org/#download).
