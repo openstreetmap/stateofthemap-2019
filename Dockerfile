@@ -10,9 +10,11 @@ WORKDIR /app
 ADD Gemfile* /app/
 
 # Install Gems
-RUN gem install bundler --no-document \
+RUN gem update --system \
+    && gem install bundler \
     && bundle config build.nokogiri --use-system-libraries \
-    && bundle install --jobs $(nproc) --retry 5
+    && bundle config --global jobs $(nproc) \
+    && bundle install
 
 # Copy Site Files
 COPY . .
