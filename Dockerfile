@@ -10,8 +10,7 @@ WORKDIR /app
 ADD Gemfile* /app/
 
 # Install Gems
-RUN gem update --system \
-    && gem install bundler \
+RUN gem install bundler -v 1.17.3 \
     && bundle config build.nokogiri --use-system-libraries \
     && bundle config --global jobs $(nproc) \
     && bundle install

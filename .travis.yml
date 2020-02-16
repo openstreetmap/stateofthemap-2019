@@ -1,0 +1,7 @@
+sudo: false
+language: ruby
+dist: bionic
+cache: bundler
+
+script:
+  - bundle exec jekyll build --verbose

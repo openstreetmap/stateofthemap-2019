@@ -32,6 +32,9 @@ exclude:
   - Dockerfile*
   - docker-compose.*
   - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 permalink: /:title/
 relative_permalinks: false
