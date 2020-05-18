@@ -11,8 +11,7 @@
     var map = L.map('map').setView([49.412, 8.690], 14);
     L.tileLayer('{{ site.map_tiles.url}}', {
       attribution: '{{ site.map_tiles.attribution }}',
-      maxZoom: {{ site.map_tiles.maxZoom}},
-      accessToken: '{{ site.map_tiles.accessToken }}'
+      maxZoom: {{ site.map_tiles.maxZoom}}
     }).addTo(map);
 
     L.marker([49.41854, 8.67345], {icon: L.icon({
