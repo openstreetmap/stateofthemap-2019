@@ -1,7 +1,7 @@
 # Site settings
 title: State of the Map 2019
 email: sotm@openstreetmap.org
-description: "Join us for three days of talks, discussions and workshops around the free and open map of the world."
+description: "The global OpenStreetMap conference. September 21 - 23, 2019 in Heidelberg, Germany. Three days of talks, discussions and workshops around the free and open map of the world."
 url: "http://2019.stateofthemap.org" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll

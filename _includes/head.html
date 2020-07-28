@@ -23,8 +23,13 @@
     <meta property="og:image" content="{{ "/img/og-image.jpg" | prepend: site.baseurl }}">
     <meta property="og:image:height" content="1257">
     <meta property="og:image:width" content="2400">
-    <meta property="og:title" content="State of the Map 2019 - Heidelberg">
-    <meta property="og:description" content="The global OpenStreetMap conference. September 21 - 23, 2019 in Heidelberg, Germany. Join us for a three day event around OpenStreetMap for talks, discussions, workshops and more.">
+    {% if page.layout == "session" or page.layout == "session_academic" %}
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="Talk at {{ site.title }}. {{ site.description }}">
+    {% else %}
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
     <meta property="og:url" content="https://2019.stateofthemap.org">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
