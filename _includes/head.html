@@ -30,7 +30,7 @@
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:description" content="{{ site.description }}">
     {% endif %}
-    <meta property="og:url" content="https://2019.stateofthemap.org">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
