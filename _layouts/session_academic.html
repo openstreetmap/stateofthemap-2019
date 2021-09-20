@@ -38,11 +38,13 @@ color: dark-nav
         {{content}}
 
         {% if page.recordings %}
-        <video controls width="100%" poster="/img/video-posters/video-{{ page.code }}.jpeg">
-        {% for rec in page.recordings %}
-          <source src="{{ rec.recording_url }}" type="{{ rec.mime_type }}">
-        {% endfor %}
-        </video>
+        <iframe src="{{ page.voc }}/oembed" frameborder="0" allowfullscreen style="width:100%; aspect-ratio: 16/9;" onload="this.style.height=(this.clientWidth*9/16)+'px';">
+          <video controls width="100%" poster="/img/video-posters/video-{{ page.code }}.jpeg">
+          {% for rec in page.recordings %}
+            <source src="{{ rec.recording_url }}" type="{{ rec.mime_type }}">
+          {% endfor %}
+          </video>
+        </iframe>
         {% endif %}
         <p>
         {% if page.voc %}<a href="{{ page.voc }}">This recording on media.ccc.de</a><br>{% endif %}
