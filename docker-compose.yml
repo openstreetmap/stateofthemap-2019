@@ -13,6 +13,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prod
-    image: stateofthemap-2019-prod
     ports:
       - 8080:80
