@@ -43,3 +43,7 @@ defaults:
       type: posts
     values:
       permalink: /:title/
+
+plugins:
+  - jekyll-gzip
+  # - jekyll-brotli
